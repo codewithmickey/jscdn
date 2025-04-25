@@ -1,0 +1,643 @@
+.scenario_second_first_para_mod3{
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+}
+
+.scenario_second_second_para_mod3{
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+}
+
+.inves_avi_5Piece_para {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+.question_aviation_mod3{
+    font-family: Arial;
+    font-size: 16px;
+    color: #CF5F1B;
+    font-style: italic;
+}
+
+.investigation_aviation_mod3{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.common_left_right_investigation_aviation_mod3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.investigation_aviation_left_box_mod3{
+  width: 365px;
+  margin: 0 auto;
+}
+
+.investigation_aviation_puzzle1_bold,.investigation_aviation_puzzle2_bold,.investigation_aviation_puzzle3_bold,.investigation_aviation_puzzle4_bold,.investigation_aviation_puzzle5_bold{
+  display: none;
+}
+
+.first_line_col1_investigation_aviation_mod3,.first_line_col2_investigation_aviation_mod3,.first_line_col3_investigation_aviation_mod3,.second_line_col1_investigation_aviation_mod3,.second_line_col2_investigation_aviation_mod3,.second_line_col3_investigation_aviation_mod3,.third_line_col1_investigation_aviation_mod3,.third_line_col2_investigation_aviation_mod3,.third_line_col3_investigation_aviation_mod3{
+  width: 33.33%;
+}
+
+.investigation_aviation_puzzle1,.investigation_aviation_puzzle2,.investigation_aviation_puzzle3,.investigation_aviation_puzzle4,.investigation_aviation_puzzle5{
+  cursor: pointer;
+}
+
+.investigation_aviation_inner_mod3{
+  width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_line_col2_investigation_aviation_mod3{
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+.second_line_col2_investigation_aviation_mod3{
+  position: relative;
+  top: -18px;
+  left: -4px;
+}
+
+.third_line_col2_investigation_aviation_mod3{
+  position: relative;
+  top: -132px;
+  left: 228px;
+}
+
+.second_line_col1_investigation_aviation_mod3{
+  position: relative;
+  left: -3px;
+    top: 18px;
+}
+
+.second_line_col3_investigation_aviation_mod3{
+  position: relative;
+  left: -3px;
+}
+
+.investigation_aviation_right_box_mod3{
+  display: none;
+  margin-left: 30px;
+}
+
+.puzzle1_inves_avi_desc_mod3,.puzzle2_inves_avi_desc_mod3,.puzzle3_inves_avi_desc_mod3,.puzzle4_inves_avi_desc_mod3,.puzzle5_inves_avi_desc_mod3{
+  display: none;
+}
+
+.puzzle1_inves_avi_desc_mod3{
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #05A2C6;
+}
+
+.inves_avi_puzzleimg1{
+  position: absolute;
+  left: -1px;
+  top: 0px;
+}
+
+.puzzle2_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #12874C;
+}
+
+.inves_avi_puzzleimg2{
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+.puzzle3_inves_avi_desc_mod3{
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #0C938C;
+}
+
+.inves_avi_puzzleimg3{
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+.puzzle4_inves_avi_desc_mod3{
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #04749B;
+}
+
+.inves_avi_puzzleimg4{
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+.puzzle5_inves_avi_desc_mod3{
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #034D84;
+}
+
+.inves_avi_puzzleimg5{
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .investigation_aviation_inner_mod3_click {
+    /* width: 350px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* float: left; */
+    position: absolute;
+    /* left: 25%; */
+    /* float: right; */
+    margin-left: -10%;
+    margin-right: 0%;
+  }
+
+  .puzzle1_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #05A2C6;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+  }
+
+  .puzzle2_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #12874C;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+  }
+
+  .puzzle3_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #0C938C;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+  }
+
+  .puzzle4_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #04749B;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+  }
+
+  .puzzle5_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #034D84;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+  }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .investigation_aviation_inner_mod3_click {
+    /* width: 350px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* left: 130px; */
+    position: absolute;
+    margin-left: -20%;
+    margin-right: 0%;
+  }
+
+  .inves_avi_puzzleimg1 {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+  }
+
+  .inves_avi_puzzleimg2 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg3 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg4 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg5 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+ .investigation_aviation_inner_mod3_click {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 40%;
+    margin-bottom: 0%;
+  }
+
+  .puzzle1_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #05A2C6;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #12874C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #0C938C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle4_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #04749B;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle5_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #034D84;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .inves_avi_puzzleimg1 {
+    position: absolute;
+    left: -2px;
+    top: -1px;
+  }
+
+  .inves_avi_puzzleimg2 {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg3 {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg4 {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg5 {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+  }
+
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .investigation_aviation_inner_mod3_click {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 630px;
+  }
+
+  .puzzle1_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #05A2C6;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #12874C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #0C938C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle4_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #04749B;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle5_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #034D84;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .inves_avi_puzzleimg1 {
+    position: absolute;
+    left: -1px;
+    top: 0px;
+  }
+
+  .inves_avi_puzzleimg2 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg3 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg4 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg5 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .investigation_aviation_inner_mod3_click {
+      width: 350px;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      margin-top: 85%;
+      margin-bottom: 0%;
+    }
+
+  .puzzle1_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #05A2C6;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #12874C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #0C938C;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle4_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #04749B;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle5_inves_avi_desc_mod3 {
+    width: 350px;
+    min-height: 300px;
+    background: #ffffff;
+    padding: 30px;
+    position: relative;
+    border: 2px solid #034D84;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .inves_avi_puzzleimg1 {
+    position: absolute;
+    left: -1px;
+    top: 0px;
+  }
+
+  .inves_avi_puzzleimg2 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg3 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg4 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+  .inves_avi_puzzleimg5 {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+  }
+
+}
+
+
+@media only screen and (max-device-width: 767px){
+  .common_left_right_investigation_aviation_mod3{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .investigation_aviation_left_box_mod3{
+    order: 2;
+  }
+
+  .investigation_aviation_right_box_mod3{
+    margin-left: 0px;
+  }
+
+  .second_line_col1_investigation_aviation_mod3 {
+    position: relative;
+    left: -3px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) and (orientation: landscape){
+  .second_line_col1_investigation_aviation_mod3 {
+    position: relative;
+    left: -3px;
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .common_left_right_investigation_aviation_mod3{
+    width: 90%;
+  }
+
+  .investigation_aviation_right_box_mod3{
+    margin-left: 20px;
+  }
+  .second_line_col1_investigation_aviation_mod3 {
+    left: -3px;
+  }
+  
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+
+  .second_line_col1_investigation_aviation_mod3 {
+    left: -3px;
+  }
+}

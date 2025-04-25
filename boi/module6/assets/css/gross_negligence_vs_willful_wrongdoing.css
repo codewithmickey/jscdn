@@ -1,0 +1,137 @@
+
+
+.gross_vs_willful_administrator-left-box p {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+.gross_vs_willful_administrator-right-box img{
+  width:100%;
+  height: auto !important;
+  object-fit: contain;
+}
+
+.gross_vs_willful_administrator-left-box{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+.description{
+    width: 100%;
+    margin: 0 auto;
+}
+.box-shadow-custum{
+  box-shadow: 2px 2px 11px #7f7c7c;
+  width: 90%;
+  margin: 0px 0px 80px 50px;
+  position: relative;
+  top: 50px;
+}
+
+.m6_font_style {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+
+
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+     .description{
+    width:100%;
+}
+.container{
+  width:100%;
+  max-width:100%;
+}
+.ipad-img{
+  display:none;
+}
+.desktop-img{
+   display:none;
+}
+.mobile-img{
+    display:block;
+}
+
+.box-shadow-custum {
+  box-shadow: 2px 2px 11px #7f7c7c;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+.gross_vs_willful_administrator-left-box {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 22px;
+}
+
+  }
+
+  /*media queries for mobile device end*/
+
+
+/*media queries for desktop device start*/
+  @media (min-width: 1024px) {
+
+    .gross_vs_willful_administrator-right-box img.img-fluid.desktop-img{
+       width:100%;
+       max-width:unset;
+       padding: 0px 0px 0px 0px;
+    }
+
+    .pt-5, .py-5 {
+      padding-top: 5.5rem!important;
+    }
+   
+   .rectangle_slide3 {
+    position: relative;
+    left: -30px;
+    }
+
+    .jumbotron.vertical-center{
+           /* display: flex; */
+       
+        /* align-items: center; */
+        width:100%;
+        height: 650px;
+    }
+
+}
+
+  @media only screen and (min-width: 992px){
+  .jumbotron {
+      height: 650px;
+  }
+}
+  /*media queries for desktop device end*/
+
+  /*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .gross_vs_willful_administrator-left-box {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 0px;
+      padding-right: 20px;
+    }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .gross_vs_willful_administrator-left-box {
+    padding-top: 40px !important;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+  }
+
+}
+

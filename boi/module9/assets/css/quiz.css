@@ -1,0 +1,654 @@
+/* Next Back Functionality Start */
+
+.start__quiz__submit__btn.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.common_quiz_next_back{
+  margin-top: 2rem;
+}
+
+.Quiz_Mod6_Next_Prev{
+  padding: 20px 10px;
+    width: 100%;
+}
+
+.quiz_para_normal_mod8 {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.access_btn_hover_tab:focus {
+  outline: 2px solid #000;
+}
+
+.quiz_prev_mod6{
+  position: absolute;
+    cursor: pointer;
+    left: 14%;
+    color: black;
+    top: 0%;
+}
+
+.quiz_next_mod6{
+  position: absolute;
+    cursor: pointer;
+    right: 14%;
+    color: black;
+    top: 0%;
+}
+
+#question__section img.disabled{
+  opacity: 0.5;
+  cursor: unset;
+}
+
+.common_pagination_circle_mod6{
+  display: inline-flex;
+}
+
+.pagination_circle1_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle2_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle3_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle4_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle5_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle6_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle7_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle8_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle9_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle10_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle11_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle12_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle13_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle14_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle15_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle16_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle17_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle18_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle19_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle20_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+  .quiz_prev_mod6 {
+    left: 3%;
+  }
+  
+  .quiz_next_mod6{
+    right: 3%;
+  }
+
+  .pagination_circle1_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle2_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle3_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle4_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle5_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle6_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle7_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle8_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle9_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle10_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle11_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle12_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle13_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle14_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle15_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle16_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle17_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle18_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle19_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+
+    .pagination_circle20_mod6{
+        height: 11px;
+        width: 11px;
+        border: 1px solid #3087C8;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) and (orientation: landscape){
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+  .quiz_prev_mod6 {
+    left: 14%;
+  }
+  
+  .quiz_next_mod6{
+    right: 14%;
+  }
+
+  .pagination_circle1_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle2_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle3_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle4_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle5_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle6_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle7_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle8_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle9_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle10_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle11_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle12_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle13_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle14_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle15_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle16_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle17_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle18_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle19_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle20_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+}
+
+  .btn.quiz__continue__btn.disabled{
+    opacity: 0.65;
+      background: gray;
+  }
+
+/* Next Back Functionality End*/
+
+.quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+  .quiz__continue__btn {
+      font-family: "Arial";
+      background: #057b95;
+      color: #fff;
+      font-weight: bold;
+      padding: 6px 60px;
+      border-radius: 0;
+      margin: 20px 0px 10px 0px;
+  }
+
+  .common_quiz_next_back{
+    margin-top: 2rem;
+  }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .quiz__continue__btn {
+      font-family: "Arial";
+      background: #057b95;
+      color: #fff;
+      font-weight: bold;
+      padding: 6px 60px;
+      border-radius: 0;
+      margin: 20px 0px 10px 0px;
+  }
+
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+   .quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+    }
+
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) and (orientation: landscape){
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+    
+
+}

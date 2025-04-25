@@ -1,0 +1,213 @@
+
+.container_slide3 {
+  width: 100%;
+  height: auto;
+  /* padding: 20px 0; */
+}
+
+.container_learning_objective_mod8 {
+  width: 100%;
+  height: auto;
+  padding: 180px 0;
+  margin-left: 80px;
+}
+
+.slide3-content-wrapper-row {
+  justify-content: center;
+}
+
+.rectangle_slide3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-right: 5rem;
+    padding: 0rem !important;
+}
+
+.slide3-img-arrow {
+    position: absolute;
+    bottom: 6rem;
+    right: -5.5rem;
+    width: 35%;
+}
+.introSubHeader_slide3 {
+  font-weight: bold;
+  color: #02374d;
+  font-family: Arial;
+}
+
+.common-p p {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.h3, h3 {
+    font-size: 20px;
+}
+
+
+
+  .description {
+    width:100%;
+    margin: 0 auto;
+}
+.description {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.rectangle_slide3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-right: 5rem !important;
+  padding: 3rem;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .rectangle_slide3 {
+    position: relative;
+    left: -110px;
+  }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+  padding-top: 70px;
+  }
+
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+  .learn_obj_paddtop {
+  padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: 560px;
+    padding: 0px 0px !important;
+    margin-left: 60px;
+  }
+
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+  
+}
+
+/* Mobile (landscape) ----------- */
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+  padding-top: 0px;
+  height: 560px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    margin: 0px;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+    padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+    margin: 0px;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+    padding-top: 0px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+    margin:0px;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  .learn_obj_paddtop {
+  padding-top: 0px;
+  height: 560px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    margin:0px;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .rectangle_slide3 {
+    /* padding-right: 1px;
+    padding-top: 20px; */
+    margin-top: 20px;
+    padding: 20px 3px 0px 0px !important;
+    float: left;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width:768px) and (min-width:1024px) {
+    .rectangle_slide3 {
+      padding: 1rem;
+    }
+}

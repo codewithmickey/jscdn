@@ -1,0 +1,195 @@
+
+.container_slide3 {
+  width: 100%;
+  height: auto;
+  /* padding: 20px 0; */
+}
+
+.container_learning_objective_mod8 {
+  width: 100%;
+  height: auto;
+  padding: 230px 0;
+}
+
+.learning_obj_font_style {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.slide3-content-wrapper-row {
+  justify-content: center;
+}
+
+.rectangle_slide3 {
+    width: 100%;
+    height: auto;
+    /*position: relative;*/
+    /*padding-right: 5rem;*/
+    /*padding: 3rem;*/
+}
+
+.slide3-img-arrow {
+    position: absolute;
+    bottom: 3rem;
+    right: 0rem;
+    width: 30%;
+}
+.introSubHeader_slide3 {
+  font-weight: bold;
+}
+
+  .description {
+    width:100%;
+    margin: 0 auto;
+}
+.description {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.rectangle_slide3 {
+  width: 100%;
+  height: auto;
+  /*position: relative;*/
+  /*padding-right: 5rem;*/
+  /*padding: 3rem;*/
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+  padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    bottom: 3rem;
+    right: -2rem;
+    width: 30%;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+  .learn_obj_paddtop {
+  padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 180px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -3.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+  
+}
+
+/* Mobile (landscape) ----------- */
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+  padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -3.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+    padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -3.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+  .learn_obj_paddtop {
+    padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -3.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  .learn_obj_paddtop {
+  padding-top: 50px;
+  }
+  .container_learning_objective_mod8 {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+  }
+  .slide3-img-arrow {
+    position: absolute;
+    top: -3.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .rectangle_slide3 {
+    /* padding-right: 1px;
+    padding-top: 20px; */
+    margin-top: 20px;
+    padding: 20px 0px 0px 0px;
+    float: left;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width:768px) and (min-width:1024px) {
+    .rectangle_slide3 {
+      padding: 1rem;
+    }
+}

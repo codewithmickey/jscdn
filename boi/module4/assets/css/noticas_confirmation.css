@@ -1,0 +1,73 @@
+.noticas-conformation-page-toppadd {
+    padding-top: 77px;
+}
+.noticas-conformation-left-box{
+  padding:20px;
+}
+.noticas-conformation-page .common-p p{
+  line-height:22px;
+}
+
+.heading_text {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold !important;
+    padding-bottom: 10px;
+}
+.noticas-conformation-page .quiz__start__section .quiz__image {
+    margin: 0;
+    padding: 0px 0 0 0px;
+}
+
+.noticas-conformation-page .quiz__start__section {
+    max-height: 392px;
+    background: #fff;
+    box-shadow: 1px 1px 10px #ddd;
+}
+.noticas-conformation-right-box{
+  height:100%;
+}
+.noticas-conformation-right-box img{
+  object-fit:cover;
+  min-height:462px;
+}
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+  .noticas-conformation-page{
+    margin-top:20px;
+  }
+     .noticas-conformation-page-toppadd{
+            padding-top:0px;
+    }
+
+  }
+
+  /*media queries for mobile device end*/
+
+  /*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+     .noticas-conformation-page-toppadd{
+            padding-top:0px;
+    }
+
+    .noticas-conformation-right-box img{
+      object-fit:cover;
+      min-height:475px;
+    }
+
+    .mod4_box_shadow_custum{
+      margin-top: 20px;
+    }
+
+  }
+  /*media queries for tablet device end*/
+
+
+
+/*media queries for desktop device start*/
+  @media (min-width: 1024px) {
+
+    
+
+  }
+  /*media queries for desktop device end*/

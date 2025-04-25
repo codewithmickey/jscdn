@@ -1,0 +1,167 @@
+.container_slide9 {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .img_fluid_slide9 {
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 12px #7f7c7c;
+  }
+
+  .mod3_noticas_issuance_rightimage_topPadd {
+    padding-top: 3%;
+  }
+  
+  .download_noticas_sop {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .tooltip_custom:hover span.classic_sop {
+      font-family: Arial;
+      position: fixed; 
+      left: 310px; 
+      /*top: 54px; */
+      z-index: 99999;
+      margin-left: 0px; 
+      max-width: 200px;
+      margin-top: 25px;
+    }
+
+    .noticas_issuance_right_box {
+    width: 100%;
+    position: relative;
+}
+
+.noticas_issuance_cam:focus + .camera_white_patch_noticas_issuance {
+  display: block;
+}
+
+.common_assets_noticas_issuance{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    z-index: 999;
+    align-items: center;
+  }
+
+  .Asset_58_noticas_issuance{
+    width: 50%;
+  }
+
+  .camera_white_patch_noticas_issuance{
+    display: none;
+  }
+  
+  .noticas_issuance_cam{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+  .noticas_issuance_cam:hover + .camera_white_patch_noticas_issuance{
+    display: block;
+  }
+  
+  .camera_white_patch_noticas_issuance{
+    width: 140px;
+    background: #ffffff;
+    color: #000000;
+    height: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+    text-align: center;
+    transition: 0.5s;
+    /* opacity: 1; */
+  }
+
+  /* All Devices except Desktop */
+
+/*** Mpbile Portrait *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait){
+  .Slide4_hideNavbar{
+    margin-top: 20px;
+  }
+  .tooltip_custom:hover span.classic_sop {
+    font-family: Arial;
+    position: absolute;
+    left: -217px;
+    /* top: 54px; */
+    z-index: 99999;
+    margin-left: 0px;
+    max-width: 250px;
+    margin-top: 25px;
+  }
+}
+
+/*** Mpbile Landscape *****/
+
+@media (min-width: 481px) and (max-width: 767px){
+  .Slide4_hideNavbar{
+    margin-top: 20px;
+  }
+  .tooltip_custom:hover span.classic_sop {
+    font-family: Arial;
+    position: absolute;
+    left: -217px;
+    /* top: 54px; */
+    z-index: 99999;
+    margin-left: 0px;
+    max-width: 250px;
+    margin-top: 25px;
+  }
+}
+  
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  .Slide4_hideNavbar{
+    margin-top: 20px;
+  }
+
+  .common_assets_noticas_issuance {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 135px;
+    left: 20px;
+    z-index: 999;
+    align-items: center;
+  }
+}
+
+ /* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait){
+  .Slide4_hideNavbar{
+    margin-top: 20px;
+  }
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .common_assets_noticas_issuance{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 999;
+    align-items: center;
+  }
+}
+  

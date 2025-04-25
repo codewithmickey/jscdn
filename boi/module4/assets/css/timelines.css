@@ -1,0 +1,137 @@
+
+.description {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.timeline-right-box img{
+   width:100%;
+   min-height:430px;
+   object-fit:cover;
+  }
+  .timeline-left-box p{
+    margin-bottom:30px;
+  }
+  .timeline-left-box {
+    padding: 115px 5px 15px 5px;
+}
+.timelinepagetoppadd{
+  padding-top:100px;
+}
+
+/*media query for mobile*/
+@media only screen and (max-width: 767px) {
+  .timelinepagetoppadd {
+    padding-top:20px!important;
+}
+  .timeline-right-box img {
+    min-height: 450px;
+    object-fit: cover;
+}
+.timelinepagetoppadd{
+  padding-top:0px;
+}
+}
+/*media query for mobile end*/
+
+
+/*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+     .timelinepagetoppadd{
+  padding-top:0px;
+}
+
+  }
+  /*media queries for tablet device end*/
+
+  /*media queries for mobile device start*/
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .timelinepagetoppadd{
+    padding-top: 20px;
+  }
+
+}
+
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .timelinepagetoppadd{
+    padding-top: 0px;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .timelinepagetoppadd{
+      padding-top: 0px;
+    }
+
+    .timeline-left-box {
+      padding: 25px 5px 15px 5px;
+    }
+
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .timelinepagetoppadd{
+      padding-top: 50px;
+    }
+
+    .timeline-left-box {
+      padding: 25px 5px 15px 5px;
+    }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .timelinepagetoppadd{
+    padding-top: 50px;
+  }
+
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+  .timeline-left-box {
+    padding: 65px 5px 15px 5px;
+  }
+}
+
+@media only screen and (min-device-width: 414) and (max-device-width: 736) and (orientation: landscape) {
+  .timeline-left-box {
+    padding: 100px 5px 15px 5px;
+  }
+}
+
+@media only screen and (min-device-width: 414) and (max-device-width: 736) and (orientation: portrait) {
+  .timeline-left-box {
+    padding: 20px 5px 15px 5px;
+  }
+}
+
+@media only screen and (min-device-width: 375) and (max-device-width: 667) and (orientation: portrait) {
+  .timeline-left-box {
+    padding: 20px 5px 15px 5px;
+  }
+}
+
+@media only screen and (min-device-width: 375) and (max-device-width: 667) and (orientation: landscape) {
+  .timeline-left-box {
+    padding: 75px 5px 15px 5px;
+  }
+}

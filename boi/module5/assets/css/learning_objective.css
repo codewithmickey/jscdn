@@ -1,0 +1,95 @@
+
+.container_learning_objective {
+  width: 100%;
+  height: auto;
+   padding: 180px 0; 
+   margin-top: 0px !important;
+}
+
+.rectangle_slide3_LO {
+    height: 280px;
+    width: 700px;
+    border-radius: 0px;
+    border: 3px solid #34c4f3;
+    background-color: white;
+}
+
+.learn_obj_mod2_font_style {
+  font-size: 16px;
+  font-family: Arial;
+  color: #000;
+}
+
+.learn_obj_mgr_left {
+  margin-left: -50px;
+}
+
+.slide3-content-wrapper-row {
+  justify-content: center;
+}
+
+.rectangle_slide3_LO {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-right: 5rem;
+}
+
+.slide3-img-arrow {
+  position: absolute;
+  bottom: 3rem;
+  right: -3rem;
+  width: 34%;
+}
+
+.introSubHeader_slide3 {
+    color: #02374d;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Arial";
+    line-height: 30px;
+    /*padding-bottom: 15px;*/
+    margin: 0px 0px 0px 0px;
+}
+
+.jumbotron {
+    height: 650px;
+}
+
+  /* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .topPadding100 {
+    padding-top: 100px !important; 
+  }
+
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .rectangle_slide3_LO {
+    padding-right: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+  .container_learning_objective {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .learn_obj_mgr_left {
+    margin-left: 0px;
+  }
+
+}
+
+

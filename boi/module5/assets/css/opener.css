@@ -1,0 +1,327 @@
+/* Opener Screen Start */
+
+.common_opener_image{
+  padding: 80px 20px 20px 20px;
+}
+
+/* ---- Image creidts code starts---- */
+
+.opener_Asset_58_candc{
+    width: 50% !important;
+  }
+
+  .opener_camera_white_patch{
+    display: none;
+  }
+
+  .opener_candc_cam:hover + .opener_camera_white_patch{
+    display: block;
+  }
+  .opener_candc_cam:focus + .opener_camera_white_patch{
+    display: block;
+  }
+
+.opener_common_assets_candc{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    z-index: 999;
+    align-items: center;
+  }
+
+  .opener_candc_cam {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.opener_camera_white_patch{
+    width: 200px;
+    background: #ffffff;
+    color: #000000;
+    height: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+    text-align: center;
+    transition: 0.5s;
+    /* opacity: 1; */
+  }
+
+/* ---- Image creidts code end---- */
+
+.dImage1{
+    position: relative;
+    /*width: 170px;*/
+    height: 450px;
+    box-shadow: 2px 4px 5px 0px #c2d0d4;
+}
+
+.dImage2{
+    position: relative;
+    left: 0px;
+    top: 39px;
+    height: 450px;   
+    /*width: 170px;*/
+    box-shadow: 2px 4px 5px 0px #c2d0d4;
+}
+
+.dImage3{
+    position: relative;
+    height: 450px;
+    /*width: 170px;*/
+    box-shadow: 2px 4px 5px 0px #c2d0d4;
+}
+
+.dImage4{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    height: 450px;
+    /*width: 170px;*/
+    box-shadow: 2px 4px 5px 0px #c2d0d4;
+}
+
+.align_self_center{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.intro_text_block{
+  color: #048DC4;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  left: 54px;
+  top: 40px;
+}
+
+.intro_text_block1{
+  top: 10px;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  left: 35px;
+}
+
+.head_rectangle{
+  /* height: 120px;
+  width: 1140px; */
+  background-color: #048DC4;
+  padding: 28px 20px;
+  /* position: relative;
+  left: -33px;
+  top: -40px; */
+}
+
+.head_text{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+}
+.start_button{
+  position: relative;
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  background-color: #204F62;
+  /*border-radius: 5px;*/
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  left: 1000px;
+  top: -42px;
+  padding: 2px;
+}
+
+.start_button {
+  position: initial;
+}
+
+.desktop_logo {
+    position: relative;
+    top: 44px;
+    padding: 5px;
+    margin-left: 17px;
+}
+
+
+.intro_text_block {
+  left: 21px !important;
+  top: 35px !important;
+}
+
+.intro_text_block1 {
+  left: 17px !important;
+  top: 14px;
+}
+
+
+.intro_text_block p {
+  margin-bottom: 0;
+}
+
+.common_opener_image img {
+  width: 24%;
+  height: 420px;
+}
+
+.start_button_with_icon {
+  background-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  width: auto !important;
+}
+
+.desktop_DOS_logo{
+  width: 7%;
+  height: auto;
+  position: absolute;
+  left: 73.6%;
+  top: -1%
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+
+  .head_text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 43px;
+    margin-left: -25px;
+  }
+
+  .desktop_DOS_logo {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 0%;
+  }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  .desktop_DOS_logo {
+    width: 11%;
+    height: auto;
+    position: absolute;
+    left: 88.5%;
+    top: 0%;
+  }
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: portrait) {
+}
+
+/* For Mobile & Smaller except Desktop */
+@media only screen and (max-device-width: 767.98px) {
+
+  .desktop_logo {
+    padding: initial;
+    /*position: initial;*/
+    padding: 5px 0px 0px 0px;
+  }
+
+  .desktop_DOS_logo {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 78%;
+    top: 0%;
+  }
+
+  .start_button {
+    color: #204F62;
+  }
+
+  .dImage2,
+  .dImage3 {
+    width: 49% !important;
+    height: auto !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 49% !important;
+  }
+
+  .intro_text_block{
+    font-size: 18px;
+  }
+
+  .intro_text_block1 {
+    font-size: 23px;
+    left: 17px;
+    top: 30px;
+  }
+
+  .head_text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+    margin-left: -25px;
+  }
+
+  .common_opener_image{
+    padding: 30px 20px 20px 20px;
+  }
+
+}
+
+@media only screen and (max-device-width: 767.98px) and (orientation: landscape){
+  .desktop_DOS_logo {
+    width: 18%;
+    height: auto;
+    position: absolute;
+    left: 81%;
+    top: 0%;
+  }
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+
+  .desktop_logo {
+    padding: 5px 0px 10px 0px;
+    margin-top: -20px;
+}
+
+  .start_button {
+    color: #204F62;
+  }
+
+  .common_opener_image {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+    margin: -1px -20px 40px -20px;
+
+  }
+
+  .head_rectangle {
+    background-color: #048DC4;
+    padding: 10px 10px;
+  }
+}
+
+
+/* Opener Screen End */

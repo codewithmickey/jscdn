@@ -1,0 +1,294 @@
+.volume__control,
+.play__button,
+.slider__wrapper,
+#slider,
+.replay,
+.text__view {
+  display: inline-block;
+}
+
+.volume__control,
+.play__button,
+.replay,
+.text__view {
+  width: 10%;
+}
+
+.audio-control-btn-wrapper {
+  margin: auto;
+  max-width: 75%;
+}
+
+.slider__wrapper {
+  width: 55%;
+  padding-left: 10px;
+}
+
+.audio__control {
+  text-align: center;
+  margin: 12px auto !important;
+}
+
+.audio__control button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.audio__control .ui-slider-horizontal {
+  width: 100%;
+  height: 6px;
+  margin-top: 10px;
+  border-radius: 0;
+  background-color: #2e87c8;
+}
+
+.audio__control .ui-slider-horizontal .ui-slider-handle {
+  top: -0.2em;
+  border-width: 2px;
+  border-color: #2e87c8;
+  /*outline: none;*/
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.hide{
+  display: none!important;
+}
+
+/* Transcript CSS Start*/ 
+
+.transcript_data_mod8{
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: #d3d3d3;
+  border: 1px solid #808080;
+  left: 0px;
+  padding: 0px 6px;
+  bottom: 50px;
+  padding: 0px 8px;
+  bottom: 10px;
+  margin: auto;
+  text-align: center;
+  float: left;
+}
+
+.transcript_data_mod8 p.transcript_data_text_mod8{
+  padding: 0px 11px;
+  margin-bottom: 0rem;
+}
+
+.close_text_area_mod8{
+  top: -6px;
+  position: absolute;
+  left: auto;
+  right: 0px;
+}
+
+@media only screen and (max-device-width: 767.98px){
+  .transcript_data_mod8{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+    left: 0px;
+    padding: 0px 6px;
+    bottom: 50px;
+    padding: 0px 8px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .transcript_data_mod8 p.transcript_data_text_mod8{
+    padding: 0px 11px;
+    margin-bottom: 0rem;
+  }
+  
+  .close_text_area_mod8{
+    top: -6px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-device-width: 767.98px) and (orientation: landscape){
+  .transcript_data_mod8{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+    left: 0px;
+    padding: 0px 6px;
+    bottom: 50px;
+    padding: 0px 8px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .transcript_data_mod8 p.transcript_data_text_mod8{
+    padding: 0px 11px;
+    margin-bottom: 0rem;
+  }
+  
+  .close_text_area_mod8{
+    top: -6px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .transcript_data_mod8{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+    left: 0px;
+    padding: 0px 6px;
+    bottom: 50px;
+    padding: 0px 8px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .transcript_data_mod8 p.transcript_data_text_mod8{
+    padding: 0px 11px;
+    margin-bottom: 0rem;
+  }
+  
+  .close_text_area_mod8{
+    top: -6px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+  }
+}
+
+/* Transcript CSS End */
+
+
+
+/* All Devices except Desktop */
+
+/*** Mpbile Portrait *****/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .audio__control {
+        background: rgba(204,204,204, 0.8);
+        /* border-radius: 8px; */
+        width: 90%;
+        /*display: none;*/
+    }
+    .volume__control,
+    .play__button, .replay, .text__view {
+        width: 10%;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .progress__bar {
+        width: 74%;
+    }
+
+    .audio__control .ui-slider-horizontal{
+    width: 60%;
+    height: 6px;
+    margin-top: 10px;
+    border-radius: 0;
+  }
+
+  .transcript_data {
+    position: relative;
+    height: auto;
+    width: 93%;
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+    left: 0px;
+    /* top: 0px; */
+    padding: 4px 3px;
+    bottom: 0px;
+    margin: auto;
+    overflow: scroll;
+    text-align: initial;
+  }
+
+
+  .close_text_area{
+    position: absolute;
+    top: -6px;
+    left: 368px;
+  }
+
+
+    
+}
+
+/*** Mpbile Landscape *****/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .audio__control {
+        background: rgba(204,204,204, 0.8);
+        /* border-radius: 8px; */
+    }
+    .volume__control,
+    .play__button, .replay, .text__view {
+        width: 10%;
+        text-align: center;
+    }
+    .progress__bar {
+        width: 74%;
+    }
+}
+
+/*** Ipad *****/
+@media (min-width: 768px) and (max-width: 1040px) {
+    .audio__control {
+        background: rgba(204,204,204, 0.8);
+        /* border-radius: 8px; */
+    }
+    .volume__control,
+    .play__button, .replay, .text__view {
+        width: 10%;
+        text-align: center;
+    }
+    .progress__bar {
+        width: 74%;
+    }
+}
+
+
+@media only screen and (max-device-width: 991.98px) {
+
+/*  .audio__control button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .slider__wrapper {
+    width: 40%;
+    padding-left: 10px;
+  }
+
+  .audio-control-btn-wrapper {
+    max-width: 90%;
+    background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 8px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }*/
+}

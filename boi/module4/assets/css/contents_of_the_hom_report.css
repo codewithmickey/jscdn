@@ -1,0 +1,136 @@
+
+.Slide21_button {
+    border: none;
+    color: black;
+    padding: 10px 69px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #37b4b7;
+    font-weight: 500;
+    outline: none!important;
+}
+.Slide21_button_position{
+    text-align: center;
+
+}
+
+/* Accessibility Start */
+
+button.compare_your_thoughts_tab:focus {
+  outline: 2px solid #000 !important;
+}
+
+/* Accessibility End */
+
+.Slide21_color
+{
+  color: #f3ab37;
+}
+.Slide21_textarea{
+  padding: 6px;
+  border-radius:0px;
+}
+.Slide21_pagepaddtop{
+  padding-top: 20px;
+}
+.Slide22_ol li{
+  font-weight:500;
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+.Slide22_color
+{
+  color: #f3ab37;
+}
+
+.Slide22_box {
+    border: 2px solid #D3D3D3;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    min-height: 90px;
+    font-weight: 500;
+    background:#ffffff;
+}
+.Slide22_box_shadow {
+    /* border: 2px solid #D3D3D3; */
+    margin: auto;
+    padding: 10px;
+    background: #ffffff;
+}
+.Slide22_ol{
+  list-style-type: lower-alpha;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.Slide22_end_sec{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Slide22_pagepaddtop{
+  padding-top:32px;
+}
+.Slide22_paddtop_start
+{
+  padding-left: 0;
+  padding-bottom: 12px;
+}
+.Slide22_box_content_padd
+{
+  padding: 12px;
+  font-family: Arial;
+  font-size: 16px;
+}
+.Slide22_box_bk_color
+{
+      background: white;
+}
+.slide22_para_center
+{
+  align-self: flex-end;
+}
+.report-two-bottom-section p{
+    min-height: 47px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.content-box-report-two{
+ margin-bottom:50px;
+}
+.conetents_of_hom_report_page textarea{
+  resize: vertical;
+  max-height: 300px;
+  min-height: 300px;
+}
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+     .Slide21_button {
+    padding: 10px 20px;
+    width: 100%;
+}
+}
+  /*media queries for mobile device end*/
+
+  /*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+  }
+  /*media queries for tablet device end*/
+
+
+
+/*media queries for desktop device start*/
+  @media (min-width: 1024px) {
+
+    
+
+
+  }
+  /*media queries for desktop device end*/

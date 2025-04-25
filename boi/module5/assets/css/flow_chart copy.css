@@ -1,0 +1,516 @@
+
+.common_cls_left_flow_chart {
+
+}
+
+.commom_flowchart_class{
+  float: left;
+  margin-bottom: 20px;
+}
+
+.common_cls_right_flow_chart {
+  margin-right: 10px;
+}
+
+.flow_chart_fot_style_heading {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+.flow_chart_fot_style {
+  font-family: Arial;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+  margin: 5px 0px 0px 0px;
+  margin-bottom: 5px !important;
+  line-height: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.flow_chart_fot_style1 {
+  font-family: Arial;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+  margin: 13px 0px 0px 0px;
+  margin-bottom: 5px !important;
+  line-height: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.flow_chart_rectangle1, .flow_chart_rectangle2, .flow_chart_rectangle3, .flow_chart_rectangle4, .flow_chart_rectangle5, .flow_chart_rectangle6, .flow_chart_rectangle8,
+.flow_chart_rectangle9, .flow_chart_rectangle10, .flow_chart_rectangle11, .flow_chart_rectangle12, .flow_chart_rectangle13, .flow_chart_rectangle14 {
+  width: auto;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #2E86C7;
+  background: #FFF;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+}
+
+.flow_chart_rectangle7 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #2E86C7;
+  background: #FFF;
+}
+
+.flow_chart_rectangle8 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #70AD47;
+  background: #FFF;
+}
+
+.flow_chart_rectangle9 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #70AD47;
+  background: #FFF;
+}
+
+.flow_chart_rectangle12 {
+  width: auto;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #70AD47;
+  background: #FFF;
+}
+
+.flow_chart_rectangle11 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #F78334;
+  background: #FFF;
+}
+
+.flow_chart_rectangle14 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #F78334;
+  background: #FFF;
+}
+
+.flow_chart_rectangle15 {
+  width: auto;
+  height: auto;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #2E86C7;
+  background: #FFF;
+}
+.flow_chart_rectangle3 {
+  width: auto;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: 2px solid #E4B50E;
+  background: #FFF;
+}
+.flow_chart_rectangle3a {
+  width: auto;
+  height: 80%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border: 2px solid #E4B50E;
+  background: #FFF;
+}
+.flow_chart_rectangle3b {
+  width: auto;
+  height: auto;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  border: 2px solid #E4B50E;
+  background: #FFF;
+}
+
+.straight_line_with_arrow_head {
+    width: auto;
+    height: 29px;
+    /* transform: rotate(90deg); */
+    /* background-color: transparent; */
+    margin-top: 0px;
+    margin-left: 45%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.big_straight_line_with_down_arrow_head {
+    width: 9px;
+    height: 139px;
+    /* transform: rotate(90deg); */
+    /* background-color: transparent; */
+    margin-top: -29px;
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: center;
+    /*float: left;*/
+}
+
+.straight_line_with_right_arrow_head {
+    width: auto;
+    height: 29px;
+    /*transform: rotate(-90deg);*/
+    /* background-color: transparent; */
+    margin-top: 0px;
+    margin-left: 45%;
+    margin-right: -20px;
+    text-align: center;
+    /*float: right;*/
+}
+
+.straight_line_with_left_right_arrow_head {
+    width: 40px;
+    height: 560px;
+    /* transform: rotate(90deg); */
+    /* background-color: transparent; */
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: auto;
+    text-align: center;
+    float: left;
+}
+
+.straight_line_with_arrow_head_subpart1 {
+    width: auto;
+    height: 29px;
+    /* transform: rotate(90deg); */ 
+    /* background-color: transparent; */
+    margin-top: 0px;
+    margin-left: 72.4%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.straight_line_with_arrow_head_block_none {
+    width: auto;
+    height: 29px;
+    /* transform: rotate(90deg); */
+    /* background-color: transparent; */
+    margin-top: 0px;
+    margin-left: 45%;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .straight_line_with_arrow_head_block_none {
+    display: none;
+  }
+
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .common_cls_right_flow_chart {
+     margin-right: 0px; 
+  }
+
+  .flow_chart_rectangle7 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 0px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_rectangle15 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_fot_style1 {
+      font-family: Arial;
+      font-size: 15px;
+      color: #000;
+      text-align: center;
+      justify-content: center;
+      margin: 15px 0px 0px 0px;
+      margin-bottom: 5px !important;
+      line-height: 1.1rem;
+    }
+
+    .straight_line_with_arrow_head_subpart1 {
+        width: auto;
+        height: 29px;
+        /* transform: rotate(90deg); */
+        /* background-color: transparent; */
+        margin-top: 0px;
+        margin-left: 72.4%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .big_straight_line_with_down_arrow_head {
+        width: 9px;
+        height: 125px;
+        /* transform: rotate(90deg); */
+        /* background-color: transparent; */
+        margin-top: -30px;
+        margin-left: 40%;
+        margin-right: 10px;
+        text-align: center;
+        float: left;
+    }
+
+    .straight_line_with_left_right_arrow_head {
+      display: none;
+    }
+
+    .straight_line_with_arrow_head_block_none {
+      display: block;
+    }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .common_cls_right_flow_chart {
+      margin-right: 0px; 
+    }
+
+    .flow_chart_rectangle7 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 0px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_rectangle15 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_fot_style1 {
+      font-family: Arial;
+      font-size: 15px;
+      color: #000;
+      text-align: center;
+      justify-content: center;
+      margin: 10px 0px 0px 0px;
+      margin-bottom: 5px !important;
+      line-height: 1.1rem;
+    }
+
+    .flow_chart_rectangle3 {
+      width: auto;
+      height: 45px;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 0px;
+      border: 2px solid #E4B50E;
+      background: #FFF;
+    }
+
+    .flow_chart_rectangle3a {
+        width: auto;
+        height: 80%;
+        padding: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        border: 2px solid #E4B50E;
+        background: #FFF;
+    }
+
+    .flow_chart_rectangle3b {
+        width: auto;
+        height: auto;
+        padding: 0px 10px 0px 10px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+        margin-top: -95px;
+        border: 2px solid #E4B50E;
+        background: #FFF;
+    }
+
+    .straight_line_with_arrow_head_subpart1 {
+        width: auto;
+        height: 29px;
+        /* transform: rotate(90deg); */
+        /* background-color: transparent; */
+        margin-top: 0px;
+        margin-left: 45%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .big_straight_line_with_down_arrow_head {
+        width: 11px;
+        height: 125px;
+        /* transform: rotate(90deg); */
+        /* background-color: transparent; */
+        margin-top: -30px;
+        margin-left: 4%;
+        margin-right: 10px;
+        text-align: center;
+        float: left;
+    }
+
+    .straight_line_with_right_arrow_head {
+        width: auto;
+        height: 29px;
+         transform: rotate(0deg); 
+        /* background-color: transparent; */
+        margin-top: 0px;
+        margin-left: 44.5%;
+        margin-right: -20px;
+        text-align: center;
+        float: left;
+    }
+
+    .straight_line_with_left_right_arrow_head {
+      display: none;
+    }
+
+    .straight_line_with_arrow_head_block_none {
+      display: block;
+    }
+
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .common_cls_right_flow_chart {
+      margin-right: 0px; 
+    }
+
+    .flow_chart_rectangle7 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 0px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_rectangle15 {
+      width: auto;
+      height: auto;
+      padding: 0 10px 0 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #2E86C7;
+      background: #FFF;
+    }
+
+    .flow_chart_fot_style1 {
+      font-family: Arial;
+      font-size: 15px;
+      color: #000;
+      text-align: center;
+      justify-content: center;
+      margin: 15px 0px 0px 0px;
+      margin-bottom: 5px !important;
+      line-height: 1.1rem;
+    }
+
+    .big_straight_line_with_down_arrow_head {
+        width: 9px;
+        height: 125px;
+        /* transform: rotate(90deg); */
+        /* background-color: transparent; */
+        margin-top: -30px;
+        margin-left: 40%;
+        margin-right: auto;
+        text-align: center;
+        float: left;
+    }
+
+    .straight_line_with_left_right_arrow_head {
+      display: none;
+    }
+
+    .straight_line_with_arrow_head_block_none {
+      display: block;
+    }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .big_straight_line_with_down_arrow_head {
+    width: 10px;
+    height: 143px;
+    /* transform: rotate(90deg); */
+    /* background-color: transparent; */
+    margin-top: -30px;
+    margin-left: 40%;
+    margin-right: auto;
+    text-align: center;
+    /*float: left;*/
+  }
+
+  .straight_line_with_left_right_arrow_head {
+      width: 40px;
+      height: 555px;
+      /* transform: rotate(90deg); */
+      /* background-color: transparent; */
+      margin-top: -40px;
+      margin-left: -30px;
+      margin-right: auto;
+      text-align: center;
+      float: left;
+  }
+
+  .jumbotron.vertical-center {
+      /* display: flex; */
+      /* align-items: center; */
+      width: 100%;
+      height: auto;
+  }
+
+}

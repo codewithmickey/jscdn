@@ -1,0 +1,51 @@
+
+.container_slide38 {
+    width:100%;
+  }
+
+  .introsubhearder_animate2 {
+    margin-top: 7px;
+  }
+  
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 11px #7f7c7c;
+  }
+  .module-summary-page li{
+    font-weight:normal;
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .common-p p.introSubHeader_slide38_bold {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-family: Arial;
+    font-size: 16px;
+  }
+  
+  /* All Devices except Desktop */
+  @media only screen and (max-device-width: 991.98px) {
+    .container_slide38 {
+      width: 100%;
+    }
+  }
+  
+/*** Ipad Ptrait*****/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+  .introSubHeader_slide38_bold{
+    margin-top: 20px;
+  }
+}
+  
+
+  @media only screen and (max-width: 767px) {
+
+    .module-summary-page{
+    padding-top:20px;
+  }
+  }

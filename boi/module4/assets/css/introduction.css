@@ -1,0 +1,279 @@
+
+.pt-5, .py-5 {
+    padding-top: 4.5rem!important;
+}
+
+.administrator-left-box p {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-family: Arial;
+    font-size: 16px;
+}
+.administrator-right-box img{
+  width:100%;
+}
+.introduction-page .administrator-left-box {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.introduction-page .common-heading h3 {
+    font-size: 18px;
+}
+.description{
+    width: 95%;
+    margin: 0 auto;
+}
+.box-shadow-custum{
+  box-shadow: 2px 2px 11px #7f7c7c;
+}
+
+
+/* ---- Image creidts code starts---- */
+
+.Asset_58_candc{
+    width: 50% !important;
+  }
+
+  .m4_introduction_camera_white_patch{
+    display: none;
+  }
+
+  .m4_introduction_candc_cam:focus + .m4_introduction_camera_white_patch{
+    display: block;
+  }
+
+  .m4_introduction_candc_cam:hover + .m4_introduction_camera_white_patch{
+    display: block;
+  }
+
+.m4_introduction_common_assets_candc{
+    display: flex;
+    width: 336px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    z-index: 999;
+    align-items: center;
+  }
+
+  .m4_introduction_candc_cam {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.m4_introduction_camera_white_patch{
+    min-width: 300px;
+    background: #ffffff;
+    color: #000000;
+    height: 22px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+    text-align: center;
+    transition: 0.5s;
+    /* opacity: 1;*/
+  }
+
+/* ---- Image creidts code end---- */
+
+.introductionpagetoppadd{
+  padding-top:140px;
+}
+
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+  .mobilepaddleftright0{
+    padding-left:0px;
+    padding-right:0px;
+  }
+     .description{
+    width:100%;
+}
+.container{
+  width:100%;
+  max-width:100%;
+}
+.ipad-img{
+  display:none;
+}
+.ipad-port-img{
+    display: none;
+  }
+.desktop-img{
+   display:none;
+}
+.mobile-img{
+    display:block;
+}
+.introductionpagetoppadd{
+  padding-top:0px;
+}
+.administrator-left-box {
+    padding-bottom:0px;
+}
+.administrator-left-box {
+    padding-top: 10px;
+   
+}
+.introduction-page .common-heading h3 {
+    padding-bottom: 5px;
+
+  }
+}
+  /*media queries for mobile device end*/
+
+  /*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .administrator-left-box {
+    padding-bottom: 58px!important;
+}
+    .introductionpagetoppadd{
+  padding-top:0px;
+}
+
+  .desktop-img{
+     display:none;
+  }
+  .mobile-img{
+      display:none;
+  }
+  .ipad-img{
+    display:none;
+  }
+  .ipad-port-img{
+    display: none;
+  }
+
+
+  }
+  /*media queries for tablet device end*/
+
+
+
+/*media queries for desktop device start*/
+  @media (min-width: 1024px) {
+
+    .administrator-right-box img.img-fluid.desktop-img{
+            
+             max-width:unset;
+    }
+   .rectangle_slide3 {
+    position: relative;
+    left: -30px;
+}
+
+
+  }
+  /*media queries for desktop device end*/
+
+  /* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .desktop-img{
+     display:block !important;
+  }
+  .mobile-img{
+      display:none;
+  }
+  .ipad-img{
+    display:none;
+  }
+  .ipad-port-img{
+    display: none !important;
+  }
+
+}
+
+  /*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .ipad-img{
+      display:none;
+    }
+    
+    .ipad-port-img{
+      display: block;
+    }
+
+    .introductionpagetoppadd {
+      padding-top: 20px;
+    }
+
+    .introduction-page .administrator-left-box {
+      padding-top: 25px;
+      padding-left: 20px;
+    }
+
+  }
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .desktop-img{
+     display:none !important;
+  }
+  .ipad-img{
+    display:block;
+  }
+  .ipad-port-img{
+    display: none !important;
+  }
+
+  .introduction-page .administrator-left-box {
+    padding-top: 75px;
+    padding-left: 20px;
+  }
+
+}
+
+@media only screen and (min-device-width: 414) and (max-device-width: 736) and (orientation: portrait) {
+  .introduction-page .administrator-left-box {
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 414) and (max-device-width: 736) and (orientation: landscape) {
+  .introduction-page .administrator-left-box {
+    padding-top: 55px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+  .introduction-page .administrator-left-box {
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+  .introduction-page .administrator-left-box {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .introduction-page .administrator-left-box {
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .introduction-page .administrator-left-box {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}

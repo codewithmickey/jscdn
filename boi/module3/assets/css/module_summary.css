@@ -1,0 +1,109 @@
+
+.container_slide38 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  .topPadding100_mod3_module_summary {
+     padding-top: 0px !important; 
+  }
+
+  .topPadding50_module_summary {
+     padding-top: 0px !important; 
+}
+  
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    /*padding-right: 20px;*/
+    box-shadow: 3px 3px 12px #7f7c7c;
+  }
+
+  .introSubHeader_slide38 {
+    /* position: relative; */
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+    /* width: 520px; */
+    /* top: -25px; */
+    padding-right: 21px;
+  }
+
+  .font_fmfs {
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .introSubHeader_slide38_select {
+    /* position: relative; */
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    /* width: 410px; */
+    color: #CF5F1B;
+    /* font-weight: bold; */
+    /* left: 0px; */
+    /* top: -30px; */
+    margin-top: -10px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  /* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .topPadding100_mod3_module_summary {
+    padding-top: 0px !important;
+    margin-bottom: 210px; 
+  }
+
+}
+  
+  /* All Devices except Desktop */
+  @media only screen and (max-device-width: 991.98px) {
+    .container_slide38 {
+      width: 100%;
+    }
+
+    .Slide12_hideNavbar{
+      margin-top: 20px;
+    }
+  }
+  
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  .Slide12_hideNavbar{
+    margin-top: 30px;
+  }
+
+  .introSubHeader_slide38 {
+    /* position: relative; */
+    font-family: Arial;
+    font-size: 15px;
+    /* width: 520px; */
+    /* top: -25px; */
+    padding-right: 0px;
+  }
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+ .col-lg-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 17px;
+    padding-left: 15px;
+  }   
+
+}

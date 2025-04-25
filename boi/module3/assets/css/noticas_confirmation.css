@@ -1,0 +1,135 @@
+.tooltip_custom:hover span.classic_dos {
+    font-family: Arial;
+    position: fixed;
+    left: 377px;
+    /* top: 54px; */
+    z-index: 99999;
+    margin-left: 0px;
+    max-width: 200px;
+    margin-top: 25px;
+}
+
+.mod3_noticas_cofirmation_rightimage_topPadd {
+  padding-top: 6%;
+}
+
+.container_slide10 {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .img_fluid_slide10 {
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 12px #7f7c7c;
+  }
+  
+  .download_noticas_sop {
+     width: 100%;
+    height: auto;
+    max-width: 100px;
+   max-height: 100px;
+  }
+
+
+/* All Devices except Desktop */
+
+/*** Mpbile Portrait *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  .download_noticas_sop {
+    width: 100%;
+    height: auto;
+    max-width: 74px;
+    max-height: 100px;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+  }
+
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+
+  .tooltip_custom:hover span.classic_dos {
+    font-family: Arial;
+    position: fixed;
+    left: 193px;
+    /* top: 54px; */
+    z-index: 99999;
+    margin-left: 0px;
+    max-width: 200px;
+    margin-top: 25px;
+  }
+}
+
+/*** Mpbile Landscape *****/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .download_noticas_sop {
+    width: 100%;
+    height: auto;
+    max-width: 85px;
+    max-height: 100px;
+    position: absolute;
+    left: 25px;
+    top: -30px;
+  }
+
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+
+  .tooltip_custom:hover span.classic_dos {
+    font-family: Arial;
+    position: fixed;
+    left: 210px;
+    /* top: 54px; */
+    z-index: 99999;
+    margin-left: 0px;
+    max-width: 200px;
+    margin-top: 25px;
+  }
+}
+
+/*** Ipad *****/
+@media (min-width: 768px) and (max-width: 1040px) {
+  .download_noticas_sop {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+    /* width: 100px; */
+    /* height: 100px; */
+    left: 10px;
+    top: -35px;
+  }
+
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: landscape){
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+}
+
+ /* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait){
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-device-width: 991.98px) {
+  .Slide5_hideNavbar{
+    margin-top: 20px;
+  }
+}
+  

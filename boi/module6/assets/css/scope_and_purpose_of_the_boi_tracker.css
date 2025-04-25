@@ -1,0 +1,510 @@
+/*.overview_guidelines_box-shadow-custum {
+  box-shadow: 2px 2px 11px #7f7c7c;
+  width: 100%;
+  position: relative;
+  top: 20px;
+  height: auto;
+}*/
+
+.scope_and_purpose_modal_content {
+    width: 740px;
+    position: relative;
+    left: -30%;
+}
+
+.scope_and_purpose_modal_content_box {
+  margin-top: 125px;
+}
+
+/*.overview_guidelines_font_style {
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+}*/
+
+.scope_and_purpose_paddmgr {
+  margin-top: 50px;
+    /*padding-left: 50px;*/
+  margin-bottom: 20px;
+}
+
+.example-btn-gray{
+  display:none;
+}
+
+.border_radius_zero {
+  border-radius: 0px;
+
+}
+
+.scope_and_purpose_modal .modal-body {
+  padding: 20px 20px 10px 0px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.scope_and_purpose_close {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    z-index: 999999;
+}
+
+/*.overview_guidelines_rectangle {
+    border: 3px solid #54709D;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+}*/
+
+
+
+
+
+.scope_and_purpose_first {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background: red;*/
+    height: max-content;
+}
+
+.custom_tooltip_mod3 {
+    color: #900000 !important;
+}
+
+.scope_and_purpose_main_class {
+  float: left;
+  width: 100%;
+}
+
+.scope_and_purpose_font_style {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+.scope_and_purpose_left_text_box {
+  padding: 10px;
+  box-shadow: 1px 0px 14px #0000008a;
+  position: relative;
+  top: -30px;
+  background: white;
+
+}
+
+.scope_and_purpose_text {
+  float: left;
+  width: 100%;
+  padding: 0px 40px 0px 80px;
+}
+
+.scope_and_purpose_common p {
+  margin-bottom: 0px;
+}
+
+.scope_and_purpose_common {
+  float: left;
+  width: 100%;
+  display: flex;
+  padding: 70px 0px 0px 84px;
+}
+
+.scope_and_purpose_first {
+  float: left;
+  -width: 30%;
+  min-height: 300px;
+}
+.scope_and_purpose_second {
+  position: relative;
+  float: left;
+  width: 40%;
+  min-height: 300px;
+}
+.scope_and_purpose_third {
+    float: left;
+    width: 25%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-end;
+}
+
+.scope_and_purpose_right_text_box {
+  padding: 10px;
+  box-shadow: 1px 0px 14px #0000008a;
+  position: relative;
+  top: 30px;
+  background: white;
+}
+
+.scope_and_purpose_second img {
+  position: relative;
+}
+
+.scope_and_purpose_text_box_image {
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    /*background: blue;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.scope_and_purpose_middle_text_box {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 1px 0px 14px #0000008a;
+}
+
+.mobile_portrait_img {
+  display: none;
+}
+
+/* iPad Device */
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .jumbotron.vertical-center {
+        /* display: flex; */
+        /* align-items: center; */
+        width: 100%;
+        height: auto;
+    }
+
+  .scope_and_purpose_text {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .scope_and_purpose_main_class {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scope_and_purpose_first {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .mobile_portrait_img {
+    display: block;
+  }
+
+  .scope_and_purpose_left_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    background: white;
+    width: 50%;
+  }
+
+  .scope_and_purpose_second {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .scope_and_purpose_third {
+    justify-content: flex-end;
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .scope_and_purpose_right_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    background: white;
+    width: 50%;
+}
+
+  .scope_and_purpose_common {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .desktop_img {
+    display: none;
+  }
+
+  .scope_and_purpose_middle_text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding: 31px;
+    /* display: flex; */
+    box-shadow: 1px 0px 14px #0000008a;
+  }
+
+}
+
+/* iPad Device Portrait */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .scope_and_purpose_modal_content {
+      width: 740px;
+      position: relative;
+      left: -25%;
+    }
+
+    .jumbotron.vertical-center {
+        /* display: flex; */
+        /* align-items: center; */
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* 6/7/8 Plus Device Portrait */
+  @media (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .scope_and_purpose_modal_content {
+      width: 385px;
+      position: relative;
+      left: 2%;
+    }
+    .scope_and_purpose_modal_content_box {
+      margin-top: 65px;
+    }
+}
+
+/* 6/7/8 Plus Device Landscape */
+  @media (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
+    .scope_and_purpose_modal_content {
+      width: 700px;
+      position: relative;
+      left: -22%;
+    }
+    .scope_and_purpose_modal_content_box {
+      margin-top: -65px;
+    }
+}
+
+
+/* Mobile Device */
+  @media only screen and (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
+
+    .scope_and_purpose_modal_content {
+      width: 390px;
+      position: relative;
+      left: 1%;
+    }
+    .scope_and_purpose_modal_content_box {
+      margin-top: 0px;
+    }
+  
+  .scope_and_purpose_text {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .scope_and_purpose_main_class {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scope_and_purpose_first {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .mobile_portrait_img {
+    display: block;
+  }
+
+  .scope_and_purpose_left_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    background: white;
+    width: 90%;
+  }
+
+  .scope_and_purpose_second {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .scope_and_purpose_third {
+    justify-content: flex-end;
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .scope_and_purpose_right_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    background: white;
+    width: 90%;
+}
+
+  .scope_and_purpose_common {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .desktop_img {
+    display: none;
+  }
+
+  .scope_and_purpose_middle_text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding: 31px;
+    /* display: flex; */
+    box-shadow: 1px 0px 14px #0000008a;
+  }
+
+  .scope_and_purpose_text {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+/* Mobile Device */
+  @media only screen and (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
+  
+  .scope_and_purpose_text {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .scope_and_purpose_main_class {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scope_and_purpose_first {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .mobile_portrait_img {
+    display: block;
+  }
+
+  .scope_and_purpose_left_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    background: white;
+    width: 90%;
+  }
+
+  .scope_and_purpose_second {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .scope_and_purpose_third {
+    justify-content: flex-end;
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .scope_and_purpose_right_text_box {
+    padding: 10px;
+    box-shadow: 1px 0px 14px #0000008a;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    background: white;
+    width: 90%;
+}
+
+  .scope_and_purpose_common {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .desktop_img {
+    display: none;
+  }
+
+  .scope_and_purpose_middle_text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding: 31px;
+    /* display: flex; */
+    box-shadow: 1px 0px 14px #0000008a;
+  }
+
+  .scope_and_purpose_text {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+  }
+}

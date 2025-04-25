@@ -1,0 +1,204 @@
+.start_button {
+  position: initial;
+}
+
+.Introduction_to_the{
+  display: none;
+}
+
+.desktop_DOS_logo{
+    width: 7%;
+    height: auto;
+    position: absolute;
+    left: 76.2%;
+    top: -1%
+}
+
+.desktop_logo {
+  /* padding: initial; */
+  /* position: initial; */
+  top: 45px;
+  padding: 5px;
+  margin-left: 17px;
+}
+
+.intro_text_block {
+  left: 17px !important;
+  top: 35px !important;
+  margin-bottom: 0px;
+}
+
+.intro_text_block1 {
+  left: 17px !important;
+  top: 20px !important;
+}
+
+.align_self_center{
+  display: flex;
+  justify-content: flex-end;
+      max-width: 16.66667%;
+}
+
+.intro_text_block p {
+  margin-bottom: 0;
+  padding-left: 3px;
+}
+
+.common_opener_image img {
+  width: 24%;
+  /*height: auto;*/
+}
+
+.start_button_with_icon {
+  background-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  width: auto !important;
+  color: #204F62;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .common_opener_image{
+    padding: 80px 20px 20px 20px;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+
+  .common_opener_image{
+    padding: 0px 20px 20px 20px !important;
+  }
+
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 80%;
+      top: 0%;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: landscape) {
+
+  .common_opener_image{
+    padding: 0px 20px 20px 20px !important;
+  }
+  .intro_text_block {
+    font-size: 40px;
+    left: 17px !important;
+    top: 25px !important;
+  }
+  
+  .intro_text_block1 {
+    font-size: 50px;
+    left: 17px !important;
+    top: 17px !important;
+  }
+
+  .desktop_logo {
+    top: 30px;
+    padding: 5px;
+    margin-left: 17px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .common_opener_image{
+    padding: 80px 20px 20px 20px !important;
+  }
+
+  .desktop_DOS_logo {
+    width: 11%;
+    height: auto;
+    position: absolute;
+    left: 88.5%;
+    top: 0%;
+  }
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  
+  .common_opener_image{
+    padding: 0px 20px 20px 20px !important;
+  }
+
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 78%;
+      top: 0%;
+  }
+
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .common_opener_image{
+    padding: 0px 20px 20px 20px !important;
+  }
+
+  .desktop_DOS_logo {
+      width: 18%;
+      height: auto;
+      position: absolute;
+      left: 81%;
+      top: 0%;
+  }
+
+}
+
+/* For Mobile & Smaller except Desktop */
+@media only screen and (max-device-width: 767.98px) {
+  .dImage2,
+  .dImage3 {
+    width: 49% !important;
+    height: auto !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 49% !important;
+  }
+
+  .intro_text_block {
+    font-size: 18px;
+    left: 17px !important;
+    top: 25px !important;
+  }
+  
+  .intro_text_block1 {
+    font-size: 23px;
+    left: 17px !important;
+    top: 20px !important;
+  }
+
+  .desktop_logo {
+    top: 30px;
+    padding: 5px;
+    margin-left: 17px;
+  }
+
+  .head_text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 21px;
+  }
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .common_opener_image {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,393 @@
+.start_button {
+  position: initial;
+}
+
+.desktop_DOS_logo{
+    width: 7%;
+    height: auto;
+    position: absolute;
+    left: 76.2%;
+    top: -1%
+}
+
+.desktop_logo {
+  position: relative;
+  top: 44px;
+  padding: 5px;
+  margin-left: 17px;
+}
+
+/* .intro_text_block,
+.intro_text_block1 {
+  left: 0 !important;
+  top: 0 !important;
+} */
+
+.intro_text_block {
+  left: 28px;
+  top: 35px;
+  margin-bottom: 0px;
+}
+
+.intro_text_block1 {
+  left: 24px;
+  top: 20px;
+}
+
+
+.intro_text_block p {
+  margin-bottom: 0;
+ 
+}
+
+.common_opener_image img {
+  width: 24%;
+  /*height: auto;*/
+}
+
+.start_button_with_icon {
+  background-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  width: auto !important;
+}
+
+.head_text.investigations-reporting{
+  
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+}
+
+
+
+/* For Mobile & Smaller except Desktop */
+@media only screen and (max-device-width: 767.98px) {
+  .dImage2,
+  .dImage3 {
+    width: 49% !important;
+    height: auto !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 49% !important;
+  }
+
+  /* .intro_text_block1 {
+    font-size: 40px;
+  } */
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .common_opener_image {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .head_text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 30px;
+  }
+}
+
+
+/*media query for mobile*/
+@media only screen and (max-width: 767px) {
+  .operner .intro_text_block {
+    color: #447ead;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+   
+}
+  .row.mobile-magin-left-right {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  .introduction-page{
+    float:left;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px!important;
+  }
+  .investigation-report-occurrence-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .timelinepagetoppadd{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .noticas-conformation-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .module-summary-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .module-summary-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .head_rectangle {
+    padding: 20px 15px;
+}
+  .jumbotron {
+    height: unset;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    width: 100%;
+
+}
+  .desktop_logo img{
+    /* width:100px;
+    padding-left:20px;
+    padding-right:20px; */
+    padding: initial;
+    position: initial;
+    padding: 5px 0px 0px 0px;
+  }
+  /* .boards-inquiry-box p {
+    font-size: 39px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+.desktop_logo {
+    position: relative;
+    top: 0px;
+    padding:0px;
+    margin-left: 0px;
+}
+
+.intro_text_block {
+  color: #447ead;
+  font-weight: 500;
+  position: relative;
+}
+
+.common_opener_image {
+  padding: 0px;
+}
+
+.head_text {
+  padding-left: 0px;
+  padding-top: 0px;
+  font-size: 22px;
+}
+
+.intro_text_block1 {
+    top: 0px;
+    font-size:35px;
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+}
+.intro_text_block {
+    left: 0px;
+    top: 0px;
+}
+
+  .desktop_logo img {
+    /* margin-bottom: 5px; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ .introduction-logosubheading p {
+    /* font-size: 20px; */
+    /*padding-left: 15px;*/
+}
+  .start_button_with_icon {
+    color: #03374f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+}
+/*media query for mobile end*/
+
+
+/*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .desktop_logo {
+    position: relative;
+    top: 0px;
+    padding: 5px;
+    margin-left: 0px;
+}
+    .row.mobile-magin-left-right{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .introduction-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .investigation-report-occurrence-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .timelinepagetoppadd{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .noticas-conformation-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .module-summary-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+  .module-summary-page{
+    float:left;
+    width:100%;
+    margin-bottom:20px!important;
+  }
+    .desktop_logo {
+    margin-bottom: 0px;
+}
+
+.intro_text_block {
+  color: #447ead;
+  font-size: 39px;
+  font-weight: 500;
+  position: relative;
+  left: 15px;
+  top: 30px;
+}
+.operner .intro_text_block {
+  color: #447ead;
+  font-size: 39px;
+  font-weight: 500;
+  position: relative;
+  left:0px;
+  top:0px;
+}
+
+.head_text.investigations-reporting {
+  padding: 15px 0px 0px 8px;
+}
+
+.intro_text_block1 {
+    top: 0px;
+    font-size: 51px;
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+}
+
+.head_text {
+  padding-left: 5px;
+  padding-top: 0px;
+  font-size: 43px;
+}
+
+    .coursemenu_resources {
+    width: 21rem;
+}
+ .headofmission-page.mission_report .card .side p {
+    padding: 15px 15px;
+    line-height: 19px;
+}
+.administrator-left-box {
+    
+    padding-bottom: 30px;
+}
+     
+      .desktop_logo img{
+  
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .desktop_logo img{
+    margin-bottom:5px;
+    padding-left:0px;
+    padding-right:0px;
+
+  }
+  .introduction-logosubheading p{
+    
+    padding-left:0px;
+   
+  }
+  .start_button_with_icon {
+    color: #03374f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.openator-start-button-right {
+    display: flex;
+    justify-content: flex-end!important;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+  }
+  /*media queries for tablet device end*/
+
+  /* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+  
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 80%;
+      top: 0%;
+  }
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .desktop_DOS_logo {
+    width: 11%;
+    height: auto;
+    position: absolute;
+    left: 88.5%;
+    top: 0%;
+  }
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 78%;
+      top: 0%;
+  }
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .desktop_DOS_logo {
+      width: 18%;
+      height: auto;
+      position: absolute;
+      left: 81%;
+      top: 0%;
+  }
+}

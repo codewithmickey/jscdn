@@ -1,0 +1,21 @@
+
+.timeline-right-box img{
+   width:100%;
+   min-height:430px;
+   object-fit:cover;
+  }
+  .timeline-left-box p{
+    margin-bottom:30px;
+  }
+  .timeline-left-box {
+    padding: 15px 5px 15px 5px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .timeline-right-box img {
+    min-height: 450px;
+    object-fit: cover;
+}
+}

@@ -1,0 +1,184 @@
+
+.container_module_summary {
+    width: 95%;
+  }
+  
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 12px #7f7c7c !important;
+  }
+
+  .paddzero {
+    padding: 0px;
+  }
+
+  .analysis_causes_occurrence_rectangle {
+    border: 3px solid #54709D;
+    padding: 20px;
+    width: 200px;
+    /*height: 445px;*/
+    height: auto;
+}
+
+  .analysis_causes_occurrence_introSubHeader_slide38_bold{
+  /*position: relative;*/
+  font-family:Arial;
+  font-size:16px;
+  font-weight: bold;
+  color: #000;
+  /*width: 520px;*/
+  /*top: -25px;*/
+}
+
+.analysis_causes_occurrence_introSubHeader_slide38{
+  /*position: relative;*/
+  font-family:Arial;
+  font-size:16px;
+  margin-top: 10px;
+  margin-bottom: 20px !important;
+  color: #000;
+  /*width: 520px;*/
+  /*top: -25px;*/
+}
+
+.analysis_of_the_causes_font_style {
+
+  font-family: Arial;
+  font-size: 16px !important;
+  color: #000;
+  margin-top: -5px;
+  padding: 0px 0px 0px 18px;
+}
+
+.module_summ_introSubHeader_slide38_select{
+  /*position: relative;*/
+  font-family:Arial;
+  font-size:16px;
+  /*width:410px;*/
+  color:#ea7323;
+  font-style: italic;
+  /*font-weight:bold;*/
+  /*left: 0px;*/
+  /*top: -30px;*/
+}
+  
+  /* All Devices except Desktop */
+  @media only screen and (max-device-width: 991.98px) {
+    .container_module_summary {
+      width: 100%;
+    }
+
+    .jumbotron.vertical-center {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: unset;
+  }
+
+}
+
+  /* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .topPadding100 {
+    padding-top: 0px !important; 
+  }
+
+  .container_module_summary {
+      width: 100%;
+      /* padding-top: 50px; */
+    }
+
+    .paddall {
+      /*padding-top: 50px;*/
+    }
+
+    .analysis_of_the_causes_of_an_occurrence_paddtop {
+      padding-top: 100px;
+    }
+    
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .topPadding100 {
+    padding-top: 50px;
+  }
+
+  .container_module_summary {
+      width: 100%;
+      padding-top: 0px;
+    }
+  
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+  .topPadding100 {
+    padding-top: 20px;
+  }
+
+  .container_module_summary {
+      width: 100%;
+      padding-top: 0px;
+    }
+  
+    .slide38-img {
+      width: 100%;
+      height: auto;
+      padding: 0px 0px 10px 0px;
+    } 
+
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+  
+  .paddall {
+    padding: 0px 35px 0px 40px;
+  }
+
+  .topPadding100 {
+    padding-top: 0px;
+  }
+  
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+    
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  
+  .paddall {
+    padding: 0px 35px 0px 40px;
+  }
+
+  .topPadding100 {
+    padding-top: 0px;
+  }
+
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 10px 0px;
+  } 
+
+  .mobile-img {
+    display: block;
+  }
+
+}
+
+  

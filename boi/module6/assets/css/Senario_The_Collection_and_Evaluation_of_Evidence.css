@@ -1,0 +1,98 @@
+.Airline_Flight_crash{
+	width: 100%;
+	box-shadow: 3px 3px 12px #7f7c7c !important;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.Senario_The_Col_and_Eval_of_Evi_Common_para_animate{
+	margin-top: 80px;
+}
+
+.topPadding100_mod6{
+	padding-top: 100px;
+}
+
+.common_download_Airline_Flight_crash_mod6{
+	display: inline-flex;
+	margin-left: -14px;
+}
+
+.download_Airline_Flight_crash {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.Senario_The_Col_and_Eval_of_Evi_para1{
+	font-family: Arial;
+    font-size: 16px;
+    color: #000;
+}
+
+.introSubHeader_slide9_select {
+    /* position: relative; */
+    font-family: Arial;
+    font-size: 16px;
+    /* width: 410px; */
+    color: #CF5F1B;
+     font-weight: normal; 
+    /* left: 0px; */
+    /* top: -30px; */
+    font-style: italic;
+}
+
+/*media query for mobile*/
+@media only screen and (max-width:767px){
+
+	.topPadding100_mod6{
+		padding-top: 30px;
+	}
+
+	.download_Airline_Flight_crash{
+		width: auto;
+		height: auto;
+		max-width: 60px;
+    	max-height: 60px;
+	}
+
+	a.download_Airline_Flight_crash_active:active {
+	    color: #F9A51B !important;
+	    font-weight: bold;
+	    border-left: 0px solid #F9A51B;
+	}
+
+.Senario_The_Col_and_Eval_of_Evi_Common_para_animate{
+	margin-top: 0px;
+}
+
+}
+
+
+/*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px){
+  	.download_Airline_Flight_crash{
+		width: auto;
+		height: auto;
+		max-width: 60px;
+    	max-height: 60px;
+	}
+
+	a.download_Airline_Flight_crash_active:active {
+	    color: #F9A51B !important;
+	    font-weight: bold;
+	    border-left: 0px solid #F9A51B;
+	}
+
+.Senario_The_Col_and_Eval_of_Evi_Common_para_animate{
+	margin-top: 10px;
+}
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+  	.Senario_The_Col_and_Eval_of_Evi_Common_para_animate{
+		margin-top: 60px;
+	}
+  }

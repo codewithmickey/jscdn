@@ -1,0 +1,204 @@
+/* Next Back Functionality Start */
+
+.common_quiz_next_back{
+  margin-top: 2rem;
+}
+
+.Quiz_Mod6_Next_Prev{
+  padding: 20px 10px;
+    width: 100%;
+}
+
+.quiz_para_normal_mod8 {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+.access_btn_hover_tab:focus {
+  outline: 2px solid #000;
+}
+
+.quiz_prev_mod6{
+  position: absolute;
+    cursor: pointer;
+    left: 30%;
+    color: black;
+    top: 0%;
+}
+
+.quiz_next_mod6{
+  position: absolute;
+    cursor: pointer;
+    right: 30%;
+    color: black;
+    top: 0%;
+}
+
+#question__section img.disabled{
+  opacity: 0.5;
+  cursor: unset;
+}
+
+.common_pagination_circle_mod6{
+  display: inline-flex;
+}
+
+.pagination_circle1_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle2_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle3_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle4_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.pagination_circle5_mod6{
+  height: 11px;
+    width: 11px;
+    border: 1px solid #3087C8;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.start__quiz__submit__btn.disabled{
+	opacity: 0.65;
+	pointer-events: none;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+  .quiz_prev_mod6 {
+    left: 20%;
+  }
+  
+  .quiz_next_mod6{
+    right: 20%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) and (orientation: landscape){
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+  .quiz_prev_mod6 {
+    left: 35%;
+  }
+  
+  .quiz_next_mod6{
+    right: 35%;
+  }
+}
+
+  .btn.quiz__continue__btn.disabled{
+    opacity: 0.65;
+      background: gray;
+  }
+
+/* Next Back Functionality End*/
+
+.quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+  .quiz__continue__btn {
+      font-family: "Arial";
+      background: #057b95;
+      color: #fff;
+      font-weight: bold;
+      padding: 6px 60px;
+      border-radius: 0;
+      margin: 20px 0px 10px 0px;
+  }
+
+  .common_quiz_next_back{
+    margin-top: 2rem;
+  }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .quiz__continue__btn {
+      font-family: "Arial";
+      background: #057b95;
+      color: #fff;
+      font-weight: bold;
+      padding: 6px 60px;
+      border-radius: 0;
+      margin: 20px 0px 10px 0px;
+  }
+
+  .common_quiz_next_back{
+    margin-top: 1rem;
+  }
+
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+   .quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .quiz__continue__btn {
+    font-family: "Arial";
+    background: #057b95;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 60px;
+    border-radius: 0;
+    margin: 20px 0px 10px 0px;
+    }
+
+}

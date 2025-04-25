@@ -1,0 +1,68 @@
+
+.container_slide3 {
+  width: 100%;
+  height: auto;
+  /* padding: 20px 0; */
+}
+
+.topPadding100_learning_obj {
+    padding-top: 180px;
+}
+
+.slide3-content-wrapper-row {
+  justify-content: center;
+}
+
+.rectangle_slide3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-right: 5rem;
+}
+
+.slide3-img-arrow {
+  position: absolute;
+  bottom: 2rem;
+  right: -6rem;
+  width: 34%;
+}
+
+.introSubHeader_slide3 {
+  font-weight: bold;
+  color: #02374d;
+}
+
+/* iPad landscpe */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .topPadding100_learning_obj {
+    padding-top: 0px;
+  }
+
+}
+
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+
+  .topPadding100_learning_obj {
+    padding-top: 0px;
+  }
+  .rectangle_slide3 {
+    padding-right: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+
+  .slide2_hideNavbar{
+    margin-top: 50px;
+  }
+}

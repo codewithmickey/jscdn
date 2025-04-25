@@ -1,0 +1,816 @@
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+
+.description_slide12{
+  position: absolute;
+  justify-content: center;
+  width: 1140px;
+  height: 768px;
+  /*background-image: url("../images/3_desktop_view.jpg");*/
+  border-radius: 20px;
+  left: 300px;
+  top: 80px;
+}
+
+.Screen8_mod8_end_sec{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 176px;
+}
+
+.Screen8_mod8_end_sec p.scope_and_purpose_of_the_boi_tracker_select_instruction {
+    min-height: 47px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.scope_and_purpose_of_the_boi_tracker_select_instruction{
+  color: #CF5F1B;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.container_slide11{
+  /*position: absolute;*/
+  height: auto;
+  /* width: 950px; */
+  /*left: 100px;*/
+  /*top: 130px;*/
+}
+
+.custom_tooltip_mod3 {
+    color: #900000 !important;
+}
+
+.topleft_slide12{
+  position: absolute;
+  top: 201px;
+  left: 300px;
+}
+
+.description_slide13{
+  position: absolute;
+  justify-content: center;
+  width: 1140px;
+  height: 768px;
+  /*background-image: url("../images/3_desktop_view.jpg");*/
+  border-radius: 20px;
+  left: 300px;
+  top: 80px;
+}
+
+.topleft_slide13{
+  position: absolute;
+  top: 201px;
+  left: 300px;
+}
+
+.description_slide14{
+  position: absolute;
+  justify-content: center;
+  width: 1140px;
+  height: 768px;
+  /*background-image: url("../images/3_desktop_view.jpg");*/
+  border-radius: 20px;
+  left: 300px;
+  top: 80px;
+}
+
+.topleft_slide14{
+  position: absolute;
+  top: 201px;
+  left: 300px;
+}
+
+/*----Slide11-----*/
+
+.intro_parent1_slide11_1 {
+  /*position: relative;*/
+  left: 20px;
+  top: 150px;
+}
+
+.intro_parent1_slide11_1_color{
+  background-color: #2FB5B7 !important;
+}
+
+.introSubHeader_slide11_1_rect_text{
+  color: #000000 !important;
+}
+
+.intro_parent1_slide11_2_color{
+  background-color: #2FB5B7 !important;
+}
+
+.introSubHeader_slide11_2_rect_text{
+  color: #000000 !important;
+}
+
+.slide11_rectangle_3{
+  float: left;
+  margin-bottom: 40px;
+}
+
+.intro_parent1_slide11_3_color{
+  background-color: #2FB5B7 !important;
+}
+
+.introSubHeader_slide11_3_rect_text{
+  color: #000000 !important;
+}
+
+.intro_parent1_slide11_2 {
+  /*position: relative;*/
+  left: -367px;
+  top: 220px;
+}
+
+.intro_parent1_slide11_3 {
+  /*position: relative;*/
+  left: 20px;
+  top: 250px;
+}
+
+.rectangle1_slide11 {
+height: 135px;
+width: 950px;
+/*background-color: white;*/
+}
+
+.rectangle1_slide11_01 {
+  border-radius: 0px;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px 20px 20px 20px;
+  width: 387px;
+  height: 45px;
+}
+
+.img_fluid_slide11{
+  /*position: relative;*/
+  /* left: 15px; */
+  /*top: 0px;*/
+  /* width: 550px; */
+  /*height: 300px;*/
+}
+
+/*.slide11_rectangle_1{
+ cursor: pointer; 
+padding-top: 80px;
+}*/
+
+/*.slide11_rectangle_2{
+ cursor: pointer; 
+padding-top: 20px;
+}*/
+
+/*.slide11_rectangle_3{
+ cursor: pointer; 
+padding-top: 20px;
+}*/
+
+.introSubHeader_slide1114{
+font-family: Arial;
+font-size:16px;
+color:#000000;
+}
+
+.sap_boi_tracker_introSubHeader_slide1114{
+font-family: Arial;
+font-size:16px;
+color:#000000;
+}
+
+.introSubHeader_slide1114_select{
+font-family: Arial;
+font-size:16px;
+color:#CF5F1B;
+font-weight:bold;
+font-style:italic;
+}
+
+.sap_introSubHeader_slide1114_rect{
+font-family: Arial;
+font-size:16px;
+color:#000000;
+/*font-weight:bold;*/
+text-align:center;
+}
+
+/*.img_fluid_slide11 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    padding: 48px 15px 10px 15px;
+  }*/
+  
+  .container_slide11 {
+    width: 100%;
+  }
+  
+  .slide11_rectangle_1 {
+    padding-top: initial;
+  }
+  
+  .rectangle1_slide11_01 {
+    width: 100%;
+    height: auto;
+    padding: 9px 20px;
+    margin: auto;
+  }
+  
+  .rectangle1_slide11_01 p {
+    margin-bottom: 0;
+  }
+  
+  .introSubHeader_slide14_style {
+    width: 100%;
+  }
+  
+  .rectangle1_slide12_01_1,
+  .rectangle1_slide13_01,
+  .rectangle1_slide14_01 {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  /*----Slide12-----*/
+
+/* .rectangle1_slide12 {
+  height: 135px;
+  width: 950px;
+  background-color: white;
+} */
+
+.rectangle1_slide12_01
+
+{
+    border-radius: 0px;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 20px 20px 20px 5px;
+    width: 634px;
+    height: 404px;
+}
+
+.rectangle1_slide12_001
+
+{
+    border-radius: 0px;
+    border: 1px solid #053296;
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+    width: 387px;
+    height: 45px;
+}
+
+.intro_parent1_slide12 {
+    /*position: relative;*/
+    left: 400px;
+    top: -55px;
+}
+
+.intro_parent1_slide12_1 {
+    /*position: relative;*/
+    left: 40px;
+    top: -160px;
+}
+
+.intro_parent1_slide12_2 {
+    /*position: relative;*/
+    left: 40px;
+    top: -140px;
+}
+
+.intro_parent1_slide12_3 {
+    /*position: relative;*/
+    left: 40px;
+    top: -120px;
+}
+
+/*----Slide13-----*/
+
+
+.rectangle1_slide12_01_1 {
+    /* border-radius: 0px;
+    border: 1px solid #000000;
+    background-color: white; */
+    padding: 60px 20px 60px 21px;
+    /* width: 548px;
+    height: 378px; */
+}
+
+.intro_parent1_slide13{
+    /*position: relative;*/
+    left: 402px;
+    top: -47px;
+}
+
+.rectangle1_slide13_01 {
+    /* border-radius: 0px;
+    border: 1px solid #000000;
+    background-color: white; */
+    padding: 10px 10px 10px 10px;
+    /* width: 548px; */
+    /* height: 369px; */
+}
+
+.intro_parent1_slide14{
+    /*position: relative;*/
+    left: 400px;
+    top: -47px;;
+}
+
+.rectangle1_slide14_01 {
+    /* border-radius: 0px;
+    border: 1px solid #000000;
+    background-color: white; */
+    padding: 0px 0px 0px 5px;
+    /* width: 548px; */
+    /* height: 370px; */
+}
+
+.introHeader_slide14_style{
+  margin-top: -21px;
+  margin-left: -15px;
+}
+
+.introSubHeader_slide14_style{
+  font-family: Arial;
+  font-size: 14px;
+  color: #000000;
+}
+
+.introSubHeader_slide13_style{
+  font-family: Arial;
+  font-size:14px;
+  color:#000000;
+}
+
+.introSubHeader_slide12_style{
+  font-family: Arial;
+  font-size:14px;
+  color:#000000;
+}
+
+.introSubHeader_slide1114_plus{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -50px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.introSubHeader_slide1114_minus{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -50px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.introSubHeader_slide1114_plus1{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -30px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.introSubHeader_slide1114_minus1{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -30px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.introSubHeader_slide1114_plus2{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -30px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.introSubHeader_slide1114_minus2{
+  /*position: relative;*/
+  font-size: 20px;
+  font-weight: bold;
+  /*top: -30px;*/
+  /*left: 335px;*/
+  cursor: pointer;
+}
+
+.show_slide12_section1, .show_slide13_section2, .show_slide14_section3{
+  border-radius: 0px;
+  border: 1px solid #2FB5B7;
+  background-color: white;
+  width: 90%;
+  height: auto;
+  padding: 10px 40px 0px 10px;
+  margin: auto;
+}
+
+/*.paddtop {
+  padding-top: 45px;
+}*/
+
+.mgrtop {
+  margin-top: -35px;
+}
+    
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+
+  .sap_boi_tracker_topPadding50 {
+    padding-top: 50px;
+  }
+
+  .sap_boi_tracker_mgrtop {
+    margin-top: 0px;
+    /*margin-bottom: 50px;*/
+  }
+
+  .mt-5, .my-5 {
+    margin-top: 0rem;
+  }
+
+  .sap_boi_tracker_paddtop {
+      padding-top: 0px;
+  }
+
+  /*.rectangle1_slide12 {
+    padding-top: 50px;
+  }*/
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  
+  .sap_boi_tracker_topPadding50 {
+    padding-top: 0px;
+  }
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 47%;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 47%;
+  }
+
+  .sap_boi_tracker_mgrtop {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+
+  .mt-5, .my-5 {
+    margin-top: 0px !important
+  }
+
+  .sap_boi_tracker_topPadding50 {
+    padding-top: 0px;
+  }
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+
+  .mgrtop {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .sap_boi_tracker_paddtop {
+    padding: 60px 10px 10px 95px;
+}
+
+.rectangle1_slide11_01 {
+    width: 90%;
+}
+
+.Screen8_mod8_end_sec {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 35px;
+}
+
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+  
+  .sap_boi_tracker_topPadding50 {
+    padding-top: 0px;
+  }
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 280px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 280px;
+  }
+
+  .sap_boi_tracker_paddtop {
+    padding: 60px 10px 20px 70px;
+  }
+
+  .mgrtop {
+    margin-top: 0px;
+    /*margin-bottom: 15px;*/
+  }
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 180px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 180px;
+  }
+  .rectangle1_slide11_01 {
+    width: 90%;
+}
+
+.Screen8_mod8_end_sec {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+  
+  .sap_boi_tracker_topPadding50 {
+    padding-top: 0px;
+  }
+
+  .offset-0_5 {
+    margin-left: 0 !important;
+  }
+
+  .introHeader_slide14_style {
+    margin-top: 0;
+  }
+
+  .mt_2_device{
+    margin-top: .5rem!important;
+  }
+
+  .mgrtop {
+    margin-top: 0px;
+  }
+
+  .sap_boi_tracker_paddtop {
+    padding: 60px 40px 20px 20px;
+  }
+
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 150px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 150px;
+  }
+  .rectangle1_slide11_01 {
+    width: 90%;
+}
+
+.Screen8_mod8_end_sec {
+    display: block;
+    justify-content: flex-start;
+    margin-left: 23px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.boi_sample_tracker_download_mod8{
+  margin-left: 40%;
+}
+
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  
+}
+
+/* iPhone 6/7/8 Plus (portrait) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 180px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 180px;
+  }
+  .Screen8_mod8_end_sec {
+    display: block;
+    justify-content: flex-start;
+    margin-left: 23px;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .boi_sample_tracker_download_mod8{
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) and (orientation: landscape){
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 48%;
+  }
+  .rectangle1_slide11_01 {
+    width: 90%;
+}
+
+.Screen8_mod8_end_sec {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 12%;
+}
+}
+
+ /*iPhone 6/7/8 Plus (Landscape) ----------- 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 320px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 320px;
+  }
+}*/
+
+ /*iPhone X (Portrati) 
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 160px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 160px;
+  }
+}
+
+ iPhone X (Landscape) 
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .scope_and_purpose_arrowicon1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 350px;
+  }
+
+  .scope_and_purpose_arrowicon2 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 350px;
+  }
+}*/

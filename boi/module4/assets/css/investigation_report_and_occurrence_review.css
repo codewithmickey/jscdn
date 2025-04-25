@@ -1,0 +1,92 @@
+.investigation-report-right-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .investigation-report-left-box{
+        padding: 15px 5px 15px 5px;
+  }
+  .common-p p.margin-bottom30{
+    margin-bottom: 10px;
+  }
+.investigation-report-right-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.margin-bottom50{
+  margin-bottom:50px;
+}
+.investigation-report-occurrence-page{
+
+}
+
+.custom_tooltip_mod3 {
+    color: #900000 !important;
+}
+
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+     .investigation-report-occurrence-page .description{
+      padding-left:0px;
+      padding-right:0px;
+      width:100%;
+    }
+
+  }
+
+  /*media queries for mobile device end*/
+
+  /*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+  }
+  /*media queries for tablet device end*/
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .invest_report_occur_topPadding50{
+    padding-top: 20px
+  }
+
+}
+
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .invest_report_occur_topPadding50{
+    padding-top: 20px
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+    .invest_report_occur_topPadding50{
+    padding-top: 20px
+    }
+
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .invest_report_occur_topPadding50{
+    padding-top: 20px
+    }
+
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .invest_report_occur_topPadding50{
+    padding-top: 20px
+  }
+
+}

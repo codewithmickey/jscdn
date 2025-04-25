@@ -1,0 +1,289 @@
+.start_button {
+  position: initial;
+}
+
+/*.desktop_logo {
+  padding: initial !important;
+  position: initial !important;
+  top: 0 !important;
+  margin-bottom:10px;
+}*/
+
+.desktop_DOS_logo{
+    width: 7%;
+    height: auto;
+    position: absolute;
+    left: 76.2%;
+    top: -1%
+}
+
+
+.desktop_logo {
+    position: relative;
+    top: 27px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.intro_text_block {
+    left: 27px;
+    top: 27px;
+    margin-bottom: 0px;
+}
+
+.intro_text_block1 {
+    left: 23px;
+    top: 19px;
+}
+
+.intro_text_block p {
+  margin-bottom: 0;
+  color:#068dc7;
+  line-height:24px;
+}
+
+.common_opener_image img {
+  width: 24%;
+  /*height: auto;*/
+}
+
+.start_button_with_icon {
+  background-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  width: auto !important;
+}
+
+.module-heading-part-second{
+  line-height:56px;
+}
+.module-heading-part-first {
+    display: flex;
+    min-width: 218px;
+    align-items: flex-start;
+    position: relative;
+    
+}
+.module-heading{
+  display:flex;
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+  
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 80%;
+      top: 0%;
+  }
+
+  .desktop_logo {
+    position: relative;
+    top: 27px;
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+  .intro_text_block {
+      left: 27px;
+      top: 27px;
+  }
+
+  .intro_text_block1 {
+      left: 23px;
+      top: 19px;
+  }
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+  .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 78%;
+      top: 0%;
+  }
+}
+
+/* For Mobile & Smaller except Desktop */
+@media only screen and (max-device-width: 767.98px) {
+  .dImage2,
+  .dImage3 {
+    width: 49% !important;
+    height: auto !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 49% !important;
+  }
+
+  
+}
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  .desktop_DOS_logo {
+      width: 18%;
+      height: auto;
+      position: absolute;
+      left: 81%;
+      top: 0%;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+   .desktop_DOS_logo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left: 78%;
+      top: 0%;
+  } 
+
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .common_opener_image {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .head_text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 30px;
+  }
+}
+
+
+/*media query for mobile*/
+@media only screen and (max-width: 767px) {
+  .desktop_logo {
+    
+}    
+.intro_text_block {
+    font-size: 18px;
+}
+
+  .intro_text_block1 {
+    font-size: 23px;
+  }
+.operner .introduction-logosubheading p {
+    font-size: 30px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.operner .desktop_logo {
+    margin-bottom:0px;
+}
+.operner .boards-inquiry-box p {
+    font-size: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  .desktop_logo img{
+    
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .boards-inquiry-box p{
+      font-size:30px;
+      padding-left:20px;
+      padding-right:20px;
+  }
+  .desktop_logo img{
+    margin-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+
+  }
+  .introduction-logosubheading p{
+    font-size:20px;
+    padding-left:20px;
+   
+  }
+  .start_button_with_icon {
+    color: #03374f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+}
+/*media query for mobile end*/
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .desktop_DOS_logo {
+    width: 11%;
+    height: auto;
+    position: absolute;
+    left: 88.5%;
+    top: 0%;  
+  }
+
+}
+
+/*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+  .desktop_logo img.desktop_logo_mod7{
+    width:100px;
+    margin-left: -13px;
+  }
+  .boards-inquiry-box p{
+    
+      padding-left:20px;
+      padding-right:20px;
+  }
+  .desktop_logo img{
+    margin-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+
+  }
+  .introduction-logosubheading p{
+
+    padding-left:20px;
+   
+  }
+
+  .start_button_with_icon {
+    color: #03374f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.openator-start-button-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro_text_block {
+    left: 11px;
+    top: 27px;
+}
+.intro_text_block1 {
+    left: 8px;
+    top: 19px;
+}
+  }
+  /*media queries for tablet device end*/

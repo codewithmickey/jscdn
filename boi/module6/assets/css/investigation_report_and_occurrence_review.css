@@ -1,0 +1,18 @@
+.investigation-report-right-box img{
+     width:100%;
+     height:100%;
+  }
+  .investigation-report-left-box{
+        padding: 15px 5px 15px 5px;
+  }
+  .common-p p.margin-bottom30{
+    margin-bottom:30px;
+  }
+.investigation-report-right-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.margin-bottom50{
+  margin-bottom:50px;
+}

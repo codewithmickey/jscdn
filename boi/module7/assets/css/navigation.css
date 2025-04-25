@@ -1,0 +1,624 @@
+    .help_popup{
+        position: relative;
+        width: 1100px;
+        height: 700px;
+        left: -295px;
+        opacity: 0;
+        top: -27px;
+    }
+
+    .glosssary_close_btn {
+        position: absolute;
+        top: 0px;
+        right: 5px;
+    }
+
+    .BOI_M3_Help_Screen_Desktop{
+      display: block;
+    }
+
+    .BOI_M3_Help_Screen_mobile_portait{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_landscape{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_ipad{
+      display: none;
+    }
+
+    header .main_nav_menu{
+        position: relative;
+        top: -28px;
+    }
+
+    a.access_anchor_next.disabled {
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.coursemenuitem.disabled {
+        pointer-events: none;
+        background: #5E8791;
+    }
+
+    /* .nextback .btn .Previous_page:focus, .nextback .btn .Previous_page:hover{
+        background: url("assets/images/Previous page hover.png") no-repeat;
+    }
+
+    .nextback .btn .Next_page:focus, .nextback .btn .Next_page:hover{
+        background: url("assets/images/Previous page hover.png") no-repeat;
+    }
+
+    .Previous_page:hover{
+        background: url("./images/Previous page hover.png") no-repeat;
+    } */
+
+    .nav-link:hover img.Next_page{
+        display: none;
+    }
+
+    .nav-link:hover img.Next_page_hover{
+        display: block;
+    }
+
+    .nav-link:hover img.Previous_page{
+        display: none;
+    }
+
+    .nav-link:hover img.Previous_page_hover{
+        display: block;
+    }
+
+    .Previous_page_hover{
+        display: none;
+    }
+
+    .Next_page_hover{
+        display: none;
+    }
+
+     /* Accessibility */
+
+    .access_button{
+        border: 1px solid transparent;
+        background: transparent;
+    }
+
+    button.access_button:focus{
+        outline: none;
+    }
+
+    button.access_button a.access_anchor_back:disabled{
+        pointer-events: none !important;
+    }
+
+    button.access_button a.access_anchor_next:disabled{
+        pointer-events: none !important;
+    }
+
+    .access_button:focus a.access_anchor_next.disabled, .access_button:hover a.access_anchor_next.disabled {
+        text-decoration: none;
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    .access_button:focus a.access_anchor_back.disabled, .access_button:hover a.access_anchor_back.disabled {
+        text-decoration: none;
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.access_anchor_back.disabled, fieldset:disabled a.btn, a.access_anchor_next.disabled {
+        pointer-events: none !important;
+    }
+
+    a.access_anchor_next:hover img.Next_page {
+        display: none;
+    }
+
+    a.access_anchor_back:hover img.Next_page {
+        display: none;
+    }
+
+    a.access_anchor_back.disabled {
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.access_anchor_back.disabled:hover {
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.access_anchor_next.disabled {
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.access_anchor_next.disabled:hover {
+        color: #6c757d;
+        opacity: .65;
+    }
+
+    a.access_anchor_back:focus, a.access_anchor_back:hover {
+        text-decoration: none;
+    }
+
+    a.access_anchor_next:focus, a.access_anchor_next:hover {
+        text-decoration: none;
+    } 
+
+    /* Accessibility */
+
+ /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .main-nav > ul > li{
+        background-color: #04374D;
+        color: #fff;
+        border-bottom: 1px solid #000;
+    } 
+
+    .main-nav > ul > li > a{
+        color: #fff !important;
+    } 
+
+    .main-nav > ul > li > a:hover, a:active{
+        /*color: #F9A51B !important;
+        font-weight: bold;
+        border-left: 4px solid #F9A51B;*/
+    } 
+    
+    .mobileHide{
+          display: none;
+      }
+      .mobileTitleBorder{
+        border-left: 20px solid #02374d;
+    }
+    .navbar{
+        padding: .5rem 0rem !important;
+    }
+    .pagename {
+        max-width:initial;
+        margin-top: -27px;
+        padding: 15px 4px 10px 4px;
+    }
+    .coursemenu_resources {
+        background: #067C97;
+        margin: 0rem;
+        border-radius: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        /*width: 100%;*/
+        /*width: 23rem;*/
+    }
+
+    .download_glossary_pdfs {
+        position: absolute;
+        right: 2% !important;
+        padding-top: 0px;
+        left: unset;
+    }
+    .coursemenu{
+        width: unset;
+    }
+
+    .help_popup {
+        position: relative;
+        width: 510px;
+        height: 630px;
+        left: 0px;
+        opacity: 0;
+        top: 40px;
+    }
+
+    .BOI_M3_Help_Screen_Desktop{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_portait{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_landscape{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_ipad{
+        display: block;
+        top: -603px;
+    }
+
+    .help_popup_image_Screen_ipad{
+        width: 100%;
+    }
+
+    .main-nav > ul > li > a.disabled{
+        color: #B7B7B7 !important;
+    } 
+
+    .main-nav > ul > li > a.disabled:hover, a.disabled:active{
+        color: #B7B7B7 !important;
+        font-weight: bold;
+        /*border-left: 4px solid #F9A51B;*/
+    } 
+
+    .navbar-light .navbar-nav .disabled:hover {
+        background: #04374D;
+        color: #B7B7B7;
+        font-weight: normal;
+        margin-left: 0px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .main-nav > ul > li{
+        background-color: #04374D;
+        color: #fff;
+        border-bottom: 1px solid #000;
+    } 
+
+    .main-nav > ul > li > a{
+        color: #fff !important;
+    } 
+
+    .main-nav > ul > li > a:hover, a:active{
+        /*color: #F9A51B !important;
+        font-weight: bold;
+        border-left: 4px solid #F9A51B;*/
+    } 
+    .mobileHide{
+        display: none;
+    }
+
+
+    .mobileTitleBorder{
+        border-left: 20px solid #02374d;
+    }
+
+    .navbar{
+        padding: .5rem 0rem !important;;
+    }
+
+    .pagename {
+        max-width: 275px;
+        white-space: pre-wrap;
+        padding:15px 4px 10px 4px;
+    }
+    footer{
+
+        margin-top: auto;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+    }
+    .coursemenu_resources {
+        background: #067C97;
+        margin: 0rem;
+        border-radius: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    .download_glossary_pdfs {
+        position: absolute;
+        right: 2% !important;
+        padding-top: 0px;
+        float: left;
+        left: unset;
+    }
+    .coursemenu{
+        width: unset;
+    }
+
+    .help_popup {
+        position: relative;
+        width: 510px;
+        height: 670px;
+        left: 0px;
+        opacity: 0;
+        top: 120px;
+    }
+
+    .BOI_M3_Help_Screen_Desktop{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_portait{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_landscape{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_ipad{
+        display: block;
+        top: -540px;
+    }
+
+    .help_popup_image_Screen_ipad{
+        width: 100%;
+    }
+
+    header .main_nav_menu{
+        position: relative;
+        top: -14px;
+    }
+
+    .main-nav > ul > li > a.disabled{
+        color: #B7B7B7 !important;
+    } 
+
+    .main-nav > ul > li > a.disabled:hover, a.disabled:active{
+        color: #B7B7B7 !important;
+        font-weight: bold;
+        /*border-left: 4px solid #F9A51B;*/
+    } 
+
+    .navbar-light .navbar-nav .disabled:hover {
+        background: #04374D;
+        color: #B7B7B7;
+        font-weight: normal;
+        margin-left: 0px;
+    }
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: landscape) {
+    .mobileHide{
+        display: none;
+    }
+    .mobileTitleBorder{
+        border-left: 20px solid #02374d;
+    }
+    .navbar{
+        padding: .5rem 0rem !important;;
+    }
+
+    .pagename {
+        max-width: 275px;
+        white-space: pre-wrap;
+        padding: 15px 4px 10px 4px;
+    }
+    footer{
+
+        margin-top: auto;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+    }
+    .coursemenu_resources {
+        background: #067C97;
+        margin: 0rem;
+        border-radius: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    .download_glossary_pdfs {
+        position: absolute;
+        right: 2% !important;
+        padding-top: 0px;
+        left: unset;
+    }
+
+    .main-nav > ul > li{
+        background-color: #04374D;
+        color: #fff;
+        border-bottom: 1px solid #000;
+    } 
+
+    .main-nav > ul > li > a{
+        color: #fff !important;
+    } 
+
+    .main-nav > ul > li > a:hover, a:active{
+        /*color: #F9A51B !important;
+        font-weight: bold;
+        border-left: 4px solid #F9A51B;*/
+    } 
+    .coursemenu{
+        width: unset;
+    }
+    
+
+
+    footer{
+        margin-top: auto;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+    }
+    .coursemenu_resources {
+        background: #067C97;
+        margin: 0rem;
+        border-radius: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    .help_popup {
+        position: relative;
+        width: 510px;
+        height: 300px;
+        left: -25px;
+        opacity: 0;
+        top: 30px;  
+    }
+
+    .BOI_M3_Help_Screen_Desktop{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_portait{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_landscape{
+        display: block;
+        top: -270px;
+        left: -20px;
+    }
+
+    .BOI_M3_Help_Screen_ipad{
+      display: none;
+    }
+
+    .help_popup_image_mobile_landscape{
+        width: 100%;
+    }
+
+    header .main_nav_menu{
+        position: relative;
+        top: -14px;
+    }
+
+    .main-nav > ul > li > a.disabled{
+        color: #B7B7B7 !important;
+    } 
+
+    .main-nav > ul > li > a.disabled:hover, a.disabled:active{
+        color: #B7B7B7 !important;
+        font-weight: bold;
+        /*border-left: 4px solid #F9A51B;*/
+    } 
+
+    .navbar-light .navbar-nav .disabled:hover {
+        background: #04374D;
+        color: #B7B7B7;
+        font-weight: normal;
+        margin-left: 0px;
+    }
+    
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+    .mobileHide{
+        display: none;
+    }
+    .mobileTitleBorder{
+        border-left: 20px solid #02374d;
+    }
+    .navbar{
+        padding: .5rem 0rem !important;;
+    }
+
+    header .main_nav_menu{
+        position: relative;
+        top: -14px;
+    }
+
+    .pagename {
+        max-width:176px;
+        white-space: pre-wrap;
+        padding: 15px 4px 10px 4px;
+    }
+
+    .main-nav > ul > li{
+        background-color: #04374D;
+        color: #fff;
+        border-bottom: 1px solid #000;
+    } 
+
+    .main-nav > ul > li > a{
+        color: #fff !important;
+    } 
+
+    .main-nav > ul > li > a:hover, a:active{
+        /*color: #F9A51B !important;
+        font-weight: bold;
+        border-left: 4px solid #F9A51B;*/
+    } 
+    .coursemenu{
+        width: unset;
+    }
+    
+
+
+    footer{
+        margin-top: auto;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+    }
+    .coursemenu_resources {
+        background: #067C97;
+        margin: 0rem;
+        border-radius: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    .download_glossary_pdfs {
+        position: absolute;
+        right: 2% !important;
+        padding-top: 0px;
+        left: unset;
+    }
+
+    .help_popup {
+        position: relative;
+        width: 270px;
+        height: 470px;
+        left: 39px;
+        opacity: 0;
+        top: 70px;
+    }
+
+    .BOI_M3_Help_Screen_Desktop{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_mobile_portait{
+        display: block;
+        top: -402px;
+        left: 28px;
+    }
+
+    .BOI_M3_Help_Screen_mobile_landscape{
+      display: none;
+    }
+
+    .BOI_M3_Help_Screen_ipad{
+      display: none;
+    }
+
+    .help_popup_image_mobile_portait{
+        width: 80%;
+    }
+
+    .main-nav > ul > li > a.disabled{
+        color: #B7B7B7 !important;
+    } 
+
+    .main-nav > ul > li > a.disabled:hover, a.disabled:active{
+        color: #B7B7B7 !important;
+        font-weight: bold;
+        /*border-left: 4px solid #F9A51B;*/
+    } 
+
+    .navbar-light .navbar-nav .disabled:hover {
+        background: #04374D;
+        color: #B7B7B7;
+        font-weight: normal;
+        margin-left: 0px;
+    }
+    
+}

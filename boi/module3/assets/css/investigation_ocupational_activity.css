@@ -1,0 +1,525 @@
+.investigation_left_box_mod3{
+    width: 345px;
+    margin: 0 auto;
+}
+
+.investigation_ocupational_guidelines_font_style {
+  font-size: 16px;
+  font-family: Arial;
+  color: #000;
+}
+
+.slide23_fixed_para_first_mod3{
+  font-size: 16px;
+  font-family: Arial;
+  color: #000;
+}
+
+.slide23_fixed_para_second_mod3{
+  font-size: 16px;
+  font-family: Arial;
+  color: #000;
+}
+
+.slide23_fixed_para_third_mod3{
+  font-size: 16px;
+  font-family: Arial;
+  color: #CF5F1B;
+  font-style: italic;
+}
+
+.investigation_left_box_text_mod3{
+    width: 345px;
+    margin: 0 auto;
+    display: none;
+}
+
+.investigation_puzzle1_mod3,.investigation_puzzle2_mod3,.investigation_puzzle3_mod3,.investigation_puzzle4_mod3{
+  cursor: pointer;
+}
+
+.investigation_inner_mod3{
+  display: flex;
+}
+
+.investigation_inner_boxes_mod3_puzzle1{
+    position: relative;
+    left: 13px;
+}
+
+.investigation_inner_boxes_mod3_puzzle2{
+    position: relative;
+    left: -13px;
+}
+
+.investigation_inner_boxes_mod3_puzzle3{
+    position: relative;
+    left: 13px;
+}
+
+.investigation_inner_boxes_mod3_puzzle4{
+    position: relative;
+    left: -13px;
+}
+
+.investigation_inner_mod3_puzzle_3_4{
+  position: relative;
+  top: -27px;
+}
+
+.investigation_common_puzzle_mod3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.puzzle1_desc_mod3{
+    position: relative;
+    border: 2px solid #09B9E4;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff
+}
+
+.puzzle1_desc_mod3 img.puzzle_img1_mod3{
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.puzzle2_desc_mod3{
+    position: relative;
+    border: 2px solid #098DC2;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff
+}
+
+.puzzle2_desc_mod3 img.puzzle_img2_mod3{
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.puzzle3_desc_mod3{
+    position: relative;
+    border: 2px solid #005D9A;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff
+}
+
+.puzzle3_desc_mod3 img.puzzle_img3_mod3{
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.puzzle4_desc_mod3{
+    position: relative;
+    border: 2px solid #0F4777;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff
+}
+
+.puzzle4_desc_mod3 img.puzzle_img4_mod3{
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.investigation_bold_puzzle1_mod3,.investigation_bold_puzzle2_mod3,.investigation_bold_puzzle3_mod3,.investigation_bold_puzzle4_mod3{
+    display: none;
+  }
+
+@media only screen and (max-device-width: 767px){
+  .investigation_common_puzzle_mod3 {
+    flex-direction: column;
+  }
+  .investigation_left_box_mod3{
+    order: 2;
+  }
+  .investigation_common_puzzle_mod3{
+    width: 100%;
+  }
+
+  .investigation_left_box_mod3{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .puzzle1_desc_mod3,.puzzle2_desc_mod3,.puzzle3_desc_mod3,.puzzle4_desc_mod3{
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .investigation_inner_mod3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-device-width: 767px) and (orientation: landscape){
+  .investigation_common_puzzle_mod3 {
+    flex-direction: column;
+  }
+  .investigation_left_box_mod3{
+    order: 2;
+  }
+  .investigation_common_puzzle_mod3{
+    width: 100%;
+  }
+
+  .investigation_left_box_mod3{
+    width: 100%;
+  }
+  .puzzle1_desc_mod3,.puzzle2_desc_mod3,.puzzle3_desc_mod3,.puzzle4_desc_mod3{
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .investigation_inner_mod3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .puzzle1_desc_mod3,.puzzle2_desc_mod3,.puzzle3_desc_mod3,.puzzle4_desc_mod3{
+    width: 320px;
+    min-height: 300px;
+  }
+
+  .investigation_common_puzzle_mod3{
+    width: 100%;
+  }
+
+  .investigation_left_box_text_mod3{
+    margin-top: -30px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+
+  .investigation_common_puzzle_mod3{
+    width: 80%;
+  }
+}
+
+/*media queries for mobile device start*/
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .puzzle1_desc_mod3 {
+    position: relative;
+    border: 2px solid #05A2C6;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 560px;
+  }
+
+  .puzzle2_desc_mod3 {
+    position: relative;
+    border: 2px solid #098DC2;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 560px;
+  }
+
+  .puzzle3_desc_mod3 {
+    position: relative;
+    border: 2px solid #005D9A;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 47px;
+    left: 415px;
+  }
+
+  .puzzle4_desc_mod3 {
+    position: relative;
+    border: 2px solid #0F4777;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 47px;
+    left: 415px;
+  }
+
+}
+
+
+/*** Mpbile Landscape *****/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+
+  /*.Desktop_iPad_View {
+    display: none;
+  }*/
+/*
+  .Mobile_Version_View {
+    display: block;
+  }
+
+  .investigation_common_puzzle_mod3{
+    opacity: 1 !important;
+  }*/
+
+  .investigation_common_puzzle_mod3_click {
+    position: absolute;
+    top: 260px;
+  }
+
+  .puzzle1_desc_mod3 {
+    position: relative;
+    border: 2px solid #09B9E4;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_desc_mod3 {
+    position: relative;
+    border: 2px solid #098DC2;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_desc_mod3 {
+    position: relative;
+    border: 2px solid #005D9A;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+
+  .puzzle4_desc_mod3 {
+    position: relative;
+    border: 2px solid #0F4777;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+
+}
+
+/* iPhone 6/7/8 Plus (portrait) */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+
+  /*.Desktop_iPad_View {
+    display: none;
+  }*/
+
+  .Mobile_Version_View {
+    display: block;
+  }
+
+  .investigation_common_puzzle_mod3{
+    opacity: 1 !important;
+  }
+
+}
+
+/* iPhone 6/7/8 Plus (landscape) */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+
+  /*.Desktop_iPad_View {
+    display: none;
+  }*/
+
+  .Mobile_Version_View {
+    display: block;
+  }
+
+  .investigation_common_puzzle_mod3{
+    opacity: 1 !important;
+  }
+
+}
+
+/* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+
+  /*.Desktop_iPad_View {
+    display: none;
+  }*/
+
+  /*.Mobile_Version_View {
+    display: block;
+  }
+
+  .investigation_common_puzzle_mod3{
+    opacity: 1 !important;
+  }
+*/
+  
+  .investigation_common_puzzle_mod3_click {
+    position: absolute;
+    top: 260px;
+  }
+
+  .puzzle1_desc_mod3 {
+    position: relative;
+    border: 2px solid #09B9E4;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_desc_mod3 {
+    position: relative;
+    border: 2px solid #098DC2;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_desc_mod3 {
+    position: relative;
+    border: 2px solid #005D9A;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+
+  .puzzle4_desc_mod3 {
+    position: relative;
+    border: 2px solid #0F4777;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+
+}
+
+/*** Ipad Ptrait*****/
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .investigation_common_puzzle_mod3_click {
+    position: absolute;
+    top: 260px;
+    left: 170px;
+    width: 50%;
+  }
+
+  .puzzle1_desc_mod3 {
+    position: relative;
+    border: 2px solid #09B9E4;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle2_desc_mod3 {
+    position: relative;
+    border: 2px solid #098DC2;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .puzzle3_desc_mod3 {
+    position: relative;
+    border: 2px solid #005D9A;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+
+  .puzzle4_desc_mod3 {
+    position: relative;
+    border: 2px solid #0F4777;
+    padding: 30px;
+    width: 380px;
+    min-height: 250px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    bottom: 373px;
+  }
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .Mobile_Version_View {
+    display: none;
+  }
+
+}

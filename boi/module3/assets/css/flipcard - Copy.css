@@ -1,0 +1,443 @@
+  
+  /*.color-red:focus, .color-red:hover {
+    display: block;
+  }*/
+
+  .content {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+
+  .card_container_mobile{
+    display: none;
+  }
+
+  .secure_scene_tab1 {
+    height: 320px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .secure_scene_tab2 {
+    height: 320px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .secure_scene_tab3 {
+    height: 320px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .secure_scene_tab4 {
+    height: 320px;
+    background-color: transparent;
+    border: none;
+  }
+
+  
+.card {
+  height: 100%;
+  /* position: absolute; */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 80%;
+  margin: 10px 0px 0px 35px;
+  float: left;
+  /* padding: 48px 10px 0; */
+  box-shadow: 1px 1px 10px #ddd;
+  height: 320px;
+  justify-content: center;
+  display: flex;
+}
+  
+  .arrowicon {
+    display: inline-block;
+    position: absolute;
+    right: -3%;
+    top: 45%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .card-flipcard .side:not(.back) p {
+    font-size: 1rem;
+  }
+  
+  .card-flipcard .side.back p {
+    /* height: 200px; */
+    overflow: auto;
+    /* text-align: justify; */
+  }
+
+
+.card .side p {
+    padding: 36px 30px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #053296
+}
+
+
+.card .back p {
+    font-size: 16px;
+    padding: 0px 5px 0px 10px;
+    text-align: left;
+    color: #37568c;
+}
+
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* iPads (landscape) ----------- */
+
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .card .back p {
+      font-size: 13px;
+      padding: 0px 10px 0px;
+      text-align: left;
+      color: #37568c;
+    }
+
+    .slide3_hideNavbar{
+      margin-top: 20px;
+      padding: 0px 20px 0px 20px;
+    }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+      .card .back p {
+          font-size: 15px;
+          padding: 0 9px;
+          text-align: left;
+          color: #37568c;
+      }
+
+      .card {
+        height: 100%;
+        /* position: absolute; */
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        width: 80%;
+        margin: 10px 0px 0px 44px;
+        float: left;
+        /* padding: 48px 10px 0; */
+        box-shadow: 1px 1px 10px #ddd;
+        height: 220px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .arrow1 {
+      display: inline-block;
+      position: absolute;
+      right: -3%;
+      top: 50%;
+      width: 10px;
+      height: 10px;
+    }
+
+    .arrow2 {
+      display: inline-block;
+      position: absolute;
+      right: 47%;
+      top: 105%;
+      width: 10px;
+      height: 10px;
+      transform: rotate(90deg);
+    }
+
+    .arrow3 {
+      display: inline-block;
+      position: absolute;
+      right: 97%;
+      top: 50%;
+      width: 10px;
+      height: 10px;
+      transform: rotate(180deg);
+    }
+    .card-container {
+      height: 100%;
+    }
+  }
+  
+  /* Mobile (landscape) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 767.98px) and (orientation: landscape) {
+    /* .card-container{
+      display: none;
+    }
+
+    .card_container_mobile{
+      display: block;
+    } */
+
+    .card .back p {
+        font-size: 13.5px;
+        padding: 0px 0px 0px 5px;
+        text-align: left;
+        color: #37568c;
+    }
+
+    .card {
+      height: 100%;
+      /* position: absolute; */
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      width: 80%;
+      margin: 10px 0px 0px 35px;
+      float: left;
+      /* padding: 48px 10px 0; */
+      box-shadow: 1px 1px 10px #ddd;
+      height: 220px;
+      justify-content: center;
+      display: flex;
+    }
+  
+    .arrow1 {
+      position: relative;
+      right: 0%;
+      top: 110px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(0deg);
+      left: 44px;
+    }
+    .arrow2 {
+      position: relative;
+      right: 0%;
+      top: 242px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(90deg);
+      left: -40%;
+    }
+    .arrow3 {
+      position: relative;
+      right: 0%;
+      top: 129px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(180deg);
+      left: -95%;
+    }
+
+    .tooltip_custom:hover span {
+      font-family: Arial;
+      position: fixed;
+      left: 0px;
+      /* top: 54px; */
+      z-index: 99999;
+      margin-left: 0px;
+      max-width: 273px;
+      margin-top: 25px;
+      /* float: left; */
+      /* margin-bottom: 50px; */
+    }
+  }
+  
+  /* Mobile (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+    .card-container{
+      display: none;
+    }
+
+    .card_container_mobile{
+      display: block;
+    }
+
+    .card{
+      height: 100%;
+      /* position: absolute; */
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      width: 97%;
+      margin: 0px 0px 0px 10px;
+      float: left;
+      /* padding: 48px 10px 0; */
+      box-shadow: 1px 1px 10px #ddd;
+      height: 160px;
+      justify-content: center;
+      display: flex;
+    }
+
+    .card .side p {
+      padding: 0px 10px 0px 15px;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: Arial;
+      color: #053296;
+    }
+
+    .card .side img {
+      border-radius: 150px;
+      max-width: 96px;
+      padding: 0px 0px 0px 0px;
+      margin-top: -15px;
+    }
+
+    .arrow1 {
+      position: relative;
+      right: 0%;
+      top: -11px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(90deg);
+      left: 50%;
+    }
+    .arrow2 {
+      position: relative;
+      right: 0%;
+      top: -11px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(90deg);
+      left: 50%;
+    }
+    .arrow3 {
+      position: relative;
+      right: 0%;
+      top: -11px;
+      width: 10px;
+      height: 10px;
+      transform: rotate(90deg);
+      left: 50%;
+    }
+
+    .tooltip_custom:hover span.custom_classic1 {
+      font-family: Arial;
+      position: fixed;
+      left: 40px;
+      /* top: 54px; */
+      z-index: 99999;
+      margin-left: -2px;
+      max-width: 400px;
+      margin-top: -45px;
+    }
+    .tooltip_custom:hover span.custom_classic2 {
+      font-family: Arial;
+      position: fixed;
+      left: 40px;
+      /* top: 54px; */
+      z-index: 99999;
+      margin-left: -40px;
+      max-width: 400px;
+      margin-top: -110px;
+    }
+    .tooltip_custom:hover span.custom_classic3 {
+      font-family: Arial;
+      position: fixed;
+      left: 40px;
+      /* top: 54px; */
+      z-index: 99999;
+      margin-left: -40px;
+      max-width: 400px;
+      margin-top: -67px;
+    }
+  }
+
+  /* 6/7/8 (portrait) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+      .arrow1 {
+          position: relative;
+          right: 0%;
+          top: -11px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(90deg);
+          left: 180px;
+      }
+
+      .arrow2 {
+          position: relative;
+          right: 0%;
+          top: -11px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(90deg);
+          left: 180px;
+      }
+
+      .arrow3 {
+          position: relative;
+          right: 0%;
+          top: -11px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(90deg);
+          left: 180px;
+      }
+
+      .card .side p {
+          padding: 0px 30px 0px 35px;
+          margin: 0;
+          font-size: 13px;
+          font-weight: 400;
+          font-family: Arial;
+          color: #053296;
+      }
+  }
+  
+  /* All Devices except Desktop */
+  @media only screen and (max-device-width: 991.98px) {
+    .Slide4to8 .flip-card-text {
+      padding: 0px 16px;
+      text-align: justify;
+    }
+
+    .Slide4to8 .slide3_hideNavbar{
+      margin-top: 20px;
+    }
+
+
+    .card-flipcard .side.back p {
+        height: 200px;
+        overflow: auto;
+    }
+  
+    /* .card-flipcard:nth-child(2)::after {
+      left: 50%;
+      top: 100%;
+      right: auto;
+      transform: rotate(90deg);
+    }
+  
+    .card-flipcard:nth-child(3)::after {
+      left: -5%;
+      top: 50%;
+      transform: rotate(180deg);
+    } */
+  
+    /* .arrow2 {
+      top: 103%;
+      left: 50%;
+      transform: rotate(90deg);
+    }
+  
+    .arrow3 {
+      left: -3%;
+      top: 50%;
+      transform: rotate(180deg);
+    } */
+
+    
+
+
+
+  }
+  
