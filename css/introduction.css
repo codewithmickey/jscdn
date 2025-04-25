@@ -1,0 +1,222 @@
+
+
+.administrator-left-box p {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-family: Arial;
+    font-size: 16px;
+}
+.administrator-right-box img{
+  width:100%;
+}
+.introduction-page .administrator-left-box {
+    padding-top: 65px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.introduction-page .common-heading h3 {
+    font-size: 18px;
+}
+.description{
+    width: 95%;
+    margin: 0 auto;
+}
+.box-shadow-custum{
+  box-shadow: 2px 2px 11px #7f7c7c;
+}
+
+.introductionpagetoppadd{
+  padding-top:170px;
+}
+
+/* ---- Image creidts code starts---- */
+
+.Asset_58_candc_mod1_introduction {
+    width: 50%;
+  }
+
+  .camera_white_patch_mod1_introduction {
+    display: none;
+  }
+
+  .candc_cam_mod1_introduction:hover + .camera_white_patch_mod1_introduction {
+    display: block;
+  }
+
+  .candc_cam_mod1_introduction:focus + .camera_white_patch_mod1_introduction {
+    display: block;
+  }
+
+.common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+  }
+
+  .candc_cam_mod1_introduction {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.camera_white_patch_mod1_introduction {
+    width: 155px;
+    background: #ffffff;
+    color: #000000;
+    height: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+    text-align: center;
+    transition: 0.5s;
+    /* opacity: 1; */
+  }
+
+/* ---- Image creidts code end---- */   
+
+
+/*media queries for mobile device start*/
+@media only screen and (max-width: 767px) {
+  .mobilepaddleftright0{
+    padding-left:0px;
+    padding-right:0px;
+  }
+     .description{
+    width:100%;
+}
+.container{
+  width:100%;
+  max-width:100%;
+}
+.ipad-img{
+  display:none;
+}
+.desktop-img{
+   display:none;
+}
+.mobile-img{
+    display:block;
+}
+.introductionpagetoppadd{
+  padding-top:0px;
+}
+.administrator-left-box {
+    padding-bottom:0px;
+}
+.administrator-left-box {
+    padding-top: 10px;
+   
+}
+.introduction-page .common-heading h3 {
+    padding-bottom: 5px;
+
+  }
+
+  .introduction-page .administrator-left-box {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 120px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+}
+
+  /*media queries for mobile device end*/
+
+  /*media queries for tablet device*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .administrator-left-box {
+    padding-bottom: 58px!important;
+}
+    .introductionpagetoppadd{
+  padding-top:0px;
+}
+  }
+  /*media queries for tablet device end*/
+
+
+/*media queries for desktop device start*/
+  @media (min-width: 1024px) {
+
+    .administrator-right-box img.img-fluid.desktop-img{
+            
+             max-width:unset;
+    }
+   .rectangle_slide3 {
+    position: relative;
+    left: -30px;
+}
+
+
+  }
+  /*media queries for desktop device end*/
+
+  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    .common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+  }
+}
+
+  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+    .common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 120px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+  }
+}
+
+ @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    .common_assets_candc_mod1_introduction {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: 5px;
+    z-index: 999;
+    align-items: center;
+  }
+}

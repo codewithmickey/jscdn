@@ -1,0 +1,337 @@
+.composition_board_inquiry_rectangel {
+    border: 1px solid #34b3b6;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px 20px;
+    padding: 30px 100px;
+    /* box-shadow: 0px 4px 15px 7px #ddd; */
+}
+
+.vertical-tabs-custum{
+        /*min-height: 620px;*/
+}
+ .vertical-tabs{
+    font-size:15px;
+    padding:10px;
+    color:#000
+}
+.vertical-tabs .nav-tabs .nav-link {
+    border-radius: 0;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #34b3b6;
+    color: #000000;
+    /* height: 40px; */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 11px 10px;
+    font-weight: 500;
+}
+ .composition-board-inquiry-page .vertical-tabs .nav-tabs .nav-link.active {
+    background-color: #34b3b6!important;
+    color: #000000;
+}
+ .vertical-tabs .tab-content>.active{
+    background:#fff;
+    display:block;
+}
+ .vertical-tabs .nav.nav-tabs {
+    border-bottom: 0;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding-right: 15px;
+    width: 100%;
+    font-weight:700;
+}
+.vertical-tabs .sv-tab-panel {
+    min-height: 315px;
+    padding-top: 10px;
+    border: 1px solid #34b3b6;
+    padding: 15px;
+}
+.composition-tabs-section{
+  width:100%;
+}
+
+.vertical-tabs{
+    width:100%;
+}
+.composition-page-top-padd{
+    padding-top: 20px;
+}
+.composition-board-inquiry-page .card-body p:nth-last-child(1){
+   margin-bottom:0px;
+}
+ 
+@media only screen and (max-width: 420px){
+  .titulo{font-size: 22px}
+}
+@media only screen and (max-width: 325px){
+  .vertical-tabs{ padding:8px;}
+}
+
+@media only screen and (max-width:1100px) {
+    .composition-board-inquiry-page #content{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    }
+    #pane-img{
+        display:none;
+    }
+
+  .composition-tabs-custum .card.tab-pane.active.show {
+    min-height:auto!important;
+}  
+.composition-page-top-padd{
+    padding-top:20px;
+}
+ .composition-page .card-header {
+    padding: 0px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0;
+    width: 100%;
+}
+.composition-page .card {
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid #34b3b6;
+    border-radius: 0px;
+    color: #000000;
+}
+.composition-page .card-header a {
+    background: #34b3b6;
+    color: #000;
+    float: left;
+    width: 100%;
+    padding: 10px 10px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+.composition-page .card-header a:active {
+        border-left:0!important;
+}
+.composition-page .card-header a.active {
+ border-left:0px;
+}
+
+.composition-page a.collapsed{
+  background:transparent;
+  color:#000;
+      float: left;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.composition-page .tab-content > .tab-pane {
+   
+    margin-top:15px;
+}
+.composition-page a .mobile-minus-icon {
+    display: block;
+}
+.composition-page .card-header a.collapsed .mobile-minus-icon{
+    display:none;
+}
+
+.composition-page .card-header a .mobile-plus-icon{
+    display:none;
+}
+
+.composition-page .card-header a.collapsed .mobile-plus-icon{
+    display:block;
+}
+.composition-board-inquiry-page .tab-content .desktop-img {
+    display:block;
+}
+.composition-tabs-custum .card.tab-pane.active.show {
+    min-height: auto;
+}
+.composition-page .composition-page.col-xl-7{
+ padding-left:0px;
+ padding-right:0px;
+}
+
+  
+}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+        .introductionpagetoppadd {
+        padding-top: 0px;
+    }
+        .composition-board-inquiry-page .collapse.show {
+        display: block;
+        padding-top: 44px;
+    }
+        .composition-page-top-padd{
+        padding-top:0px;
+    }
+           .convening-order-page-top-padd {
+              padding-top: 0px;
+           }
+           .accordian-section {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .composition-board-inquiry-page .fade {
+        opacity: 1!important;
+        transition: opacity .15s linear;
+    }
+    .composition-board-inquiry-page .tab-content>.tab-pane {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    #pane-img {
+    display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    .nav-tabs {
+    display:none;
+}
+
+@media(min-width:1100px) {
+    .composition-page .nav-tabs {
+        display: flex;
+    }
+
+    .composition-page .card {
+        border: none;
+    }
+
+    .composition-page .card .card-header {
+        display:none;
+    }  
+
+    .composition-page .card .collapse{
+        display:block;
+    }
+}
+
+@media(max-width:767px){
+    .composition-tabs-custum .card.tab-pane.active.show {
+    min-height: auto;
+   
+}
+    /* 
+     * Changed selector to `.tab-content > .tab-pane` in order to override `.fade:not(.show)`
+     * In BS4 Beta `.tab-pane`s were rendered hidden by just `.fade`
+     */
+    .composition-page .tab-content > .tab-pane {
+    display: block;
+    opacity: 1;
+    clear: both;
+    padding:0px;
+    display: flex;
+    text-decoration: none;
+
+    /* border: 0px; */
+}
+#pane-img{
+    display:none;
+}
+.tab-content.col-xl-7{
+    padding-left:0px;
+    padding-right:0px;
+}
+.vertical-tabs-custum.pt-5{
+    padding-top:0px!important;
+}
+}
+
+.composition-page .nav-tabs .nav-item {
+    margin-bottom: -1px;
+    width: 100%;
+}
+.vertical-tabs-custum ul li a {
+    border-radius: 0;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #34b3b6!important;
+    color: #000000!important;
+    /* height: 40px; */
+    width: 100%;
+    margin-bottom: 22px;
+    padding: 11px 10px;
+    font-weight: 500;
+}
+.composition-tabs-custum .card.tab-pane.active.show {
+    min-height: 385px;
+    border: 1px solid #34b3b6;
+    border-radius:0px;
+}
+.composition-tabs-custum #pane-img.card.tab-pane.active.show {
+    border:0;
+}
+.composition-tabs-custum{
+  width:100%;
+}
+.composition-board-inquiry-page img{
+  width:100%;
+  box-shadow: 2px 3px 7px #6d6b6b;
+}
+.composition-board-inquiry-page .nav-tabs .nav-link {
+    border-radius: 0px;
+    display: flex;
+    justify-content: center !important;
+}
+.composition-board-inquiry-page .nav-link.active.show{
+  background:#34b3b6;
+
+}
+.tab-minus{
+  display:none;
+  font-size: 27px;
+  height: 20px;
+  align-items: center;
+}
+.tab-plus {
+    display: flex;
+    font-size: 27px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+    width: 30px;
+}
+.nav-link.active.show .tab-plus{
+  display:none;
+}
+.nav-link.active.show .tab-minus {
+    display: flex;
+    font-size: 35px;
+    height: 16px;
+    align-items: center;
+    padding: 10px;
+    width: 30px;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    padding: 0;
+    /* top: 10px; */
+    justify-content: space-around;
+    /* padding: 10px; */
+    padding-left: 4px;
+}
+.composition-page .nav-tabs {
+    border-bottom: 0;
+}

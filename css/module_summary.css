@@ -1,0 +1,98 @@
+
+.container_slide38 {
+    width:100%;
+  }
+  
+  .slide38-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 11px #7f7c7c;
+  }
+  .module-summary-page li{
+    font-weight:normal;
+    font-family: Arial;
+    font-size: 16px;
+  }
+
+  .common-p p.introSubHeader_slide38_bold {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-family: Arial;
+    font-size: 16px;
+  }
+
+  .common-p p {
+    font-family: Arial;
+  }
+  
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+  .summary_desktop_padd_top{
+    padding-top: 77px;
+  }
+
+  .summary_desk_mgr_top {
+    /*margin-top: 160px;*/
+  }
+}  
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .summary_desktop_padd_top{
+    padding-top: 0px !important;
+  }
+
+  .summary_desk_mgr_top {
+    /*margin-top: 140px;*/
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .text-center {
+    /*text-align: center!important;*/
+     margin-top: 30px; 
+  }
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+  .text-center {
+    /*text-align: center!important;*/
+     margin-top: 30px; 
+  }
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  .text-center {
+    /*text-align: center!important;*/
+     margin-top: 30px; 
+  }
+}
+
+/* iPhone Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+}
+
+/* iPhone Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+    .container_slide38 {
+      width: 100%;
+    }
+}
+
+
+  @media only screen and (max-width: 767px) {
+
+    .module-summary-page{
+    padding-top:20px;
+    }
+  }
