@@ -1,0 +1,107 @@
+
+.container_loss_or_damage {
+  width: 100%;
+  height: auto;
+   padding: 0px 0; 
+}
+
+.slide3-content-wrapper-row {
+  justify-content: center;
+}
+
+.loss_damage_padd {
+  padding: 20px 20px 20px 20px;
+}
+
+.custom_tooltip_mod3 {
+    color: #900000 !important;
+}
+
+.rectangle_slide3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-right: 5rem;
+}
+
+.slide3-img-arrow {
+  position: absolute;
+  bottom: 2rem;
+  right: -6rem;
+  width: 34%;
+}
+
+.loss_damage_p1 {
+  /*font-weight: bold;*/
+}
+
+.loss_or_damage_font_style {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}
+
+/* All Devices except Desktop */
+@media only screen and (max-device-width: 991.98px) {
+  .rectangle_slide3 {
+    padding-right: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .slide3-img-arrow {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    bottom: initial;
+    width: 110px;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 992px) {
+
+  .topPadding100 {
+    padding-top: 0px !important;
+  }
+
+  .jumbotron {
+    height: 650px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: landscape) {
+  
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: landscape) {
+
+  .topPadding100 {
+    padding-top: 0px !important;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) {
+
+}
+
+/* Mobile (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: landscape) {
+  .loss_damage_padd {
+  padding: 20px 0px 70px 0px;
+}
+    
+}
+
+/* Mobile (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 767.98px) and (orientation: portrait) {
+  .mt-5, .my-5 {
+        margin-top: 0rem!important;
+  }
+  .loss_damage_padd {
+  padding: 20px 0px 70px 0px;
+}
+}
